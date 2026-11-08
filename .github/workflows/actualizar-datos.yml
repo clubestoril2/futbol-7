@@ -1,0 +1,60 @@
+# Comprueba a diario si el Ayuntamiento de Móstoles ha publicado calendarios
+# nuevos o modificados. Si los hay, actualiza los JSON de la rama futbol7-app,
+# hace commit («AAAA-MM-DD actualizada temporada AAAA/AA») y lanza el
+# despliegue de esa rama en GitHub Pages.
+name: Actualizar datos
+
+on:
+  schedule:
+    - cron: '17 6 * * *'   # todos los días a las 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: actualizar-datos
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar los scripts (rama master)
+        uses: actions/checkout@v4
+
+      - name: Descargar la aplicación (rama futbol7-app)
+        uses: actions/checkout@v4
+        with:
+          ref: futbol7-app
+          path: app
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Extraer calendarios de la web municipal
+        id: datos
+        run: python -I scripts/futbol7_datos.py actualizar --destino app/data
+
+      - name: Confirmar y subir los datos nuevos
+        if: steps.datos.outputs.temporadas != ''
+        working-directory: app
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "$(TZ=Europe/Madrid date +%F) ${{ steps.datos.outputs.mensaje }}"
+          git push origin HEAD:futbol7-app
+
+      - name: Lanzar el despliegue en GitHub Pages
+        if: steps.datos.outputs.temporadas != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run desplegar.yml --ref futbol7-app

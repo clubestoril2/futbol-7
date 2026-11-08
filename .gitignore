@@ -1,2 +1,8 @@
 # Python
 .venv/
+__pycache__/
+
+# Copia de trabajo de la rama futbol7-app (git worktree) y descargas
+/app/
+/pdfs/
+/temp/
