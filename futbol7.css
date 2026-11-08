@@ -56,6 +56,25 @@
     font-weight: 700;
 }
 
+/*
+ * Columnas iguales en todas las tablas: anchos fijos en em para fecha, hora
+ * y campo; las dos de equipos se reparten el resto a partes iguales.
+ */
+.f7-tabla {
+    table-layout: fixed;
+    min-width: 38em; /* en pantallas estrechas se desplaza dentro de .ce-tabla */
+}
+
+.f7-tabla th.f7-fecha { width: 6em; }
+.f7-tabla th.f7-hora { width: 3.2em; }
+.f7-tabla th.f7-campo { width: 8.5em; }
+
+.f7-tabla .f7-fecha,
+.f7-tabla .f7-hora,
+.f7-tabla .f7-campo {
+    white-space: nowrap;
+}
+
 .f7-descansa td {
     color: var(--ce-text-muted);
     font-style: italic;

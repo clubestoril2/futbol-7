@@ -386,14 +386,14 @@
         });
 
         /* Misma estructura que las tablas del resto de la web (div.ce-tabla > table.tabla). */
-        var tabla = el('table', { 'class': 'tabla' }, [
+        var tabla = el('table', { 'class': 'tabla f7-tabla' }, [
             el('caption', { 'class': 'ce-oculto', text: categoria.nombre + ', ' + titulo }),
             el('thead', null, [el('tr', null, [
-                el('th', { scope: 'col', text: 'Local' }),
-                el('th', { scope: 'col', text: 'Visitante' }),
-                el('th', { scope: 'col', text: 'Fecha' }),
-                el('th', { scope: 'col', text: 'Hora' }),
-                el('th', { scope: 'col', text: 'Campo' })
+                el('th', { scope: 'col', 'class': 'f7-equipo', text: 'Local' }),
+                el('th', { scope: 'col', 'class': 'f7-equipo', text: 'Visitante' }),
+                el('th', { scope: 'col', 'class': 'f7-fecha', text: 'Fecha' }),
+                el('th', { scope: 'col', 'class': 'f7-hora', text: 'Hora' }),
+                el('th', { scope: 'col', 'class': 'f7-campo', text: 'Campo' })
             ])]),
             cuerpo
         ]);
