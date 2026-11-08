@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calendarios de fútbol 7 · Club Deportivo Estoril II</title>
+    <meta name="description" content="Calendarios de los campeonatos municipales de fútbol 7 de Móstoles (prebenjamín, benjamín, alevín e infantil) con filtros por temporada, categoría y jornada.">
+    <link rel="canonical" href="https://www.clubestoril2.es/escuelas-y-actividades/escuela-de-futbol-7/">
+    <link rel="stylesheet" href="futbol7.css">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --ce-primary: #c8102e;
+            --ce-primary-dark: #8a0a1f;
+            --ce-primary-contrast: #fff;
+            --ce-bg: #fff;
+            --ce-bg-alt: #f5f5f5;
+            --ce-surface: #fff;
+            --ce-text: #1a1a1a;
+            --ce-text-muted: #5a5a5a;
+            --ce-border: #dadada;
+            --ce-link: #a30d25;
+            --ce-focus: #0a7bc2;
+            --ce-accent-cream: #f8e8a8;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                --ce-bg: #121214;
+                --ce-bg-alt: #1c1c1f;
+                --ce-surface: #232327;
+                --ce-text: #ececec;
+                --ce-text-muted: #a8a8ac;
+                --ce-border: #3a3a3f;
+                --ce-link: #ff6b7e;
+                --ce-focus: #4db3f5;
+                --ce-accent-cream: #5a5030;
+            }
+        }
+        :root[data-theme="dark"] {
+            --ce-bg: #121214;
+            --ce-bg-alt: #1c1c1f;
+            --ce-surface: #232327;
+            --ce-text: #ececec;
+            --ce-text-muted: #a8a8ac;
+            --ce-border: #3a3a3f;
+            --ce-link: #ff6b7e;
+            --ce-focus: #4db3f5;
+            --ce-accent-cream: #5a5030;
+        }
+        body {
+            margin: 0;
+            padding: 0 16px 2rem;
+            background: var(--ce-bg);
+            color: var(--ce-text);
+            font: 1rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        main { max-width: 1120px; margin: 0 auto; }
+        a { color: var(--ce-link); }
+        h1 { margin: 1.5rem 0 0.5rem; }
+        .intro { color: var(--ce-text-muted); margin: 0 0 1rem; }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Calendarios de fútbol 7</h1>
+    <p class="intro">Campeonatos municipales de fútbol 7 del Ayuntamiento de Móstoles en los que participa la
+        <a href="https://www.clubestoril2.es/escuelas-y-actividades/escuela-de-futbol-7/">escuela de fútbol 7 del Club Deportivo Estoril II</a>.</p>
+    <div id="futbol7-app" data-nivel="2">
+        <noscript>Para ver los calendarios es necesario activar JavaScript. También puede consultarlos en la
+            <a href="https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica">web del Ayuntamiento de Móstoles</a>.</noscript>
+    </div>
+</main>
+<script src="futbol7.js" defer></script>
+</body>
+</html>

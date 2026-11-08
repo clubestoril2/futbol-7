@@ -1,0 +1,40 @@
+# Publica esta rama (futbol7-app) en GitHub Pages tal cual, sin Jekyll.
+# Se ejecuta con cada push a la rama y cuando lo lanza el flujo
+# «Actualizar datos» de la rama master tras añadir datos nuevos.
+name: Desplegar en GitHub Pages
+
+on:
+  push:
+    branches: [futbol7-app]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  desplegar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - name: Descargar la rama
+        uses: actions/checkout@v4
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Empaquetar el sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Desplegar
+        id: despliegue
+        uses: actions/deploy-pages@v4

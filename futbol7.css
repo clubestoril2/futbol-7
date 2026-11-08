@@ -1,0 +1,305 @@
+/*
+ * Estilos de los calendarios de fútbol 7 del CD Estoril II.
+ * Usa los tokens del tema de la web del club (--ce-*) cuando existen y
+ * valores propios en caso contrario, con modo oscuro automático.
+ */
+.f7 {
+    --f7-primary: var(--ce-primary, #c8102e);
+    --f7-primary-dark: var(--ce-primary-dark, #8a0a1f);
+    --f7-primary-contrast: var(--ce-primary-contrast, #fff);
+    --f7-bg: var(--ce-bg, #fff);
+    --f7-bg-alt: var(--ce-bg-alt, #f5f5f5);
+    --f7-surface: var(--ce-surface, #fff);
+    --f7-text: var(--ce-text, #1a1a1a);
+    --f7-text-muted: var(--ce-text-muted, #5a5a5a);
+    --f7-border: var(--ce-border, #dadada);
+    --f7-focus: var(--ce-focus, #0a7bc2);
+    --f7-cream: var(--ce-accent-cream, #f8e8a8);
+    --f7-radius: var(--ce-radius, 8px);
+    --f7-radius-small: var(--ce-radius-small, 4px);
+    --f7-transition: var(--ce-transition, 150ms ease);
+    --f7-space: var(--ce-space-3, 1rem);
+    color: var(--f7-text);
+    font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .f7 {
+        --f7-bg: var(--ce-bg, #121214);
+        --f7-bg-alt: var(--ce-bg-alt, #1c1c1f);
+        --f7-surface: var(--ce-surface, #232327);
+        --f7-text: var(--ce-text, #ececec);
+        --f7-text-muted: var(--ce-text-muted, #a8a8ac);
+        --f7-border: var(--ce-border, #3a3a3f);
+        --f7-focus: var(--ce-focus, #4db3f5);
+        --f7-cream: var(--ce-accent-cream, #5a5030);
+    }
+}
+
+:root[data-theme="dark"] .f7 {
+    --f7-bg: var(--ce-bg, #121214);
+    --f7-bg-alt: var(--ce-bg-alt, #1c1c1f);
+    --f7-surface: var(--ce-surface, #232327);
+    --f7-text: var(--ce-text, #ececec);
+    --f7-text-muted: var(--ce-text-muted, #a8a8ac);
+    --f7-border: var(--ce-border, #3a3a3f);
+    --f7-focus: var(--ce-focus, #4db3f5);
+    --f7-cream: var(--ce-accent-cream, #5a5030);
+}
+
+/* ---------- filtros ---------- */
+
+.f7-filtros {
+    margin: 0 0 var(--f7-space);
+    padding: calc(var(--f7-space) * 0.75) var(--f7-space);
+    border: 1px solid var(--f7-border);
+    border-radius: var(--f7-radius);
+    background: var(--f7-bg-alt);
+}
+
+.f7-grupo {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-width: 0;
+}
+
+.f7-grupo + .f7-grupo {
+    margin-top: calc(var(--f7-space) * 0.75);
+}
+
+.f7-grupo__titulo {
+    padding: 0;
+    margin: 0 0 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--f7-text-muted);
+}
+
+.f7-grupo__botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.f7-grupo__ayuda {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    color: var(--f7-text-muted);
+}
+
+.f7-boton {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.25rem;
+    min-width: 2.5rem;
+    padding: 0.3rem 0.75rem;
+    margin: 0;
+    border: 1px solid var(--f7-border);
+    border-radius: 999px;
+    background: var(--f7-surface);
+    color: var(--f7-text);
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background var(--f7-transition), color var(--f7-transition), border-color var(--f7-transition);
+}
+
+.f7-boton:hover {
+    border-color: var(--f7-primary);
+    color: var(--f7-primary);
+}
+
+.f7-boton:focus-visible {
+    outline: 3px solid var(--f7-focus);
+    outline-offset: 2px;
+}
+
+.f7-boton--activo,
+.f7-boton--activo:hover {
+    background: var(--f7-primary);
+    border-color: var(--f7-primary);
+    color: var(--f7-primary-contrast);
+}
+
+.f7-boton__numero {
+    font-size: 1rem;
+}
+
+.f7-boton__fecha {
+    font-size: 0.7rem;
+    font-weight: 500;
+    opacity: 0.85;
+    white-space: nowrap;
+}
+
+.f7-boton--enlace {
+    min-height: 0;
+    padding: 0.2rem 0.6rem;
+    border-color: transparent;
+    background: transparent;
+    color: var(--ce-link, var(--f7-primary));
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.f7-boton--enlace:hover {
+    background: var(--f7-surface);
+}
+
+.f7-limpiar {
+    margin: calc(var(--f7-space) * 0.75) 0 0;
+}
+
+/* ---------- contenido ---------- */
+
+.f7-cargando,
+.f7-vacio,
+.f7-aviso {
+    padding: var(--f7-space);
+    border: 1px dashed var(--f7-border);
+    border-radius: var(--f7-radius);
+    color: var(--f7-text-muted);
+    text-align: center;
+}
+
+.f7-error {
+    padding: var(--f7-space);
+    border-left: 4px solid var(--f7-primary);
+    background: var(--f7-bg-alt);
+}
+
+.f7-temporada {
+    margin: var(--f7-space) 0 0.5rem;
+}
+
+.f7-categoria {
+    margin: 0 0 calc(var(--f7-space) * 1.5);
+    scroll-margin-top: 4rem;
+}
+
+.f7-categoria__titulo {
+    margin: calc(var(--f7-space) * 1.5) 0 0.25rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid var(--f7-primary);
+}
+
+.f7-meta,
+.f7-pie {
+    margin: 0 0 0.75rem;
+    font-size: 0.85rem;
+    color: var(--f7-text-muted);
+}
+
+.f7-pie {
+    margin-top: var(--f7-space);
+}
+
+.f7-jornada {
+    margin: 0 0 var(--f7-space);
+    scroll-margin-top: 4rem;
+}
+
+.f7-jornada__titulo {
+    margin: var(--f7-space) 0 0.4rem;
+    font-size: 1.05rem;
+}
+
+.f7-tabla-envoltorio {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.f7 .f7-tabla {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.f7 .f7-tabla th,
+.f7 .f7-tabla td {
+    padding: 0.45rem 0.6rem;
+    border: 0;
+    border-bottom: 1px solid var(--f7-border);
+    text-align: left;
+    vertical-align: top;
+}
+
+.f7 .f7-tabla thead th {
+    border-bottom: 2px solid var(--f7-border);
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--f7-text-muted);
+    white-space: nowrap;
+}
+
+.f7 .f7-tabla tbody tr:nth-child(even) {
+    background: var(--f7-bg-alt);
+}
+
+.f7-fecha,
+.f7-hora {
+    white-space: nowrap;
+}
+
+.f7 .f7-estoril,
+.f7 td.f7-estoril {
+    font-weight: 700;
+    color: var(--f7-primary);
+}
+
+.f7 td.f7-estoril {
+    background: var(--f7-cream);
+}
+
+.f7-descansa td {
+    color: var(--f7-text-muted);
+    font-style: italic;
+}
+
+.f7-visualmente-oculto {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    .f7-filtros {
+        padding: 0.6rem 0.75rem;
+    }
+
+    .f7-boton {
+        padding: 0.25rem 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    .f7 .f7-tabla {
+        font-size: 0.85rem;
+    }
+
+    .f7 .f7-tabla th,
+    .f7 .f7-tabla td {
+        padding: 0.4rem 0.45rem;
+    }
+}
+
+@media print {
+    .f7-filtros {
+        display: none;
+    }
+}

@@ -1,0 +1,3016 @@
+{
+ "temporada_id": "2024-25",
+ "temporada": "2024/25",
+ "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica",
+ "actualizado": "2026-11-08",
+ "categorias": [
+  {
+   "id": "prebenjamin",
+   "nombre": "Prebenjamín",
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/PREBENJAMIN",
+   "pdf": null,
+   "pdf_fecha": "2024-10-28",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2024-11-09",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-09",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2024-11-09",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2024-11-09",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2024-11-16",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2024-11-16",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2024-11-16",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-11-16",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2024-11-23",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2024-11-23",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2024-11-23",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2024-11-23",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2024-11-30",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-11-30",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-30",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2024-11-30",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2024-12-14",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2024-12-14",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2024-12-14",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2024-12-14",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-01-11",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-01-11",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-01-11",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-11",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-01-18",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-01-18",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-01-18",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-01-18",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-01-25",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-01-25",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-01-25",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-01-25",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-02-01",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-02-01",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-02-01",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2025-02-01",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-02-08",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-08",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-02-08",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-02-08",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2025-02-15",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-02-15",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2025-02-15",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-02-15",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2025-02-22",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-02-22",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-02-22",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-22",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2025-03-08",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-03-08",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-03-08",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-03-08",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 14,
+     "fecha": "2025-03-15",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2025-03-15",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-03-15",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-03-15",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 15,
+     "fecha": "2025-03-22",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-03-22",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2025-03-22",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-03-22",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 16,
+     "fecha": "2025-03-29",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-03-29",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-03-29",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-03-29",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 17,
+     "fecha": "2025-04-05",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-04-05",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-04-05",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2025-04-05",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 18,
+     "fecha": "2025-04-26",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-04-26",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-04-26",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-04-26",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 19,
+     "fecha": "2025-05-10",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2025-05-10",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-05-10",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-05-10",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 20,
+     "fecha": "2025-05-17",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-05-17",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-05-17",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-05-17",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 21,
+     "fecha": "2025-05-24",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-05-24",
+       "hora": "10:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-05-24",
+       "hora": "10:15",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-05-24",
+       "hora": "11:15",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "benjamin",
+   "nombre": "Benjamín",
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/BENJAMIN",
+   "pdf": null,
+   "pdf_fecha": "2024-10-28",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2024-11-08",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-11-08",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2024-11-08",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2024-11-08",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-08",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-11-08",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-11-08",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2024-11-08",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2024-11-08",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2024-11-15",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "INTER 7",
+       "fecha": "2024-11-15",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2024-11-15",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2024-11-15",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2024-11-15",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2024-11-15",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2024-11-15",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-11-15",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2024-11-15",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2024-11-22",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2024-11-22",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2024-11-22",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-11-22",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2024-11-22",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-22",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-11-22",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-11-22",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2024-11-22",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2024-11-29",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2024-11-29",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2024-11-29",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "INTER 7",
+       "fecha": "2024-11-29",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2024-11-29",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2024-11-29",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2024-11-29",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2024-11-29",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-11-29",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2024-12-13",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2024-12-13",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2024-12-13",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2024-12-13",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2024-12-13",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-12-13",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-12-13",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-12-13",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-12-13",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-01-10",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2025-01-10",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-01-10",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2025-01-10",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-01-10",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-01-10",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-01-10",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-01-10",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2025-01-10",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-01-17",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-17",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-01-17",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2025-01-17",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-01-17",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2025-01-17",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2025-01-17",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-01-17",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-01-17",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-01-24",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-01-24",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-01-24",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-01-24",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2025-01-24",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-01-24",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-01-24",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2025-01-24",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-01-24",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-01-31",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-01-31",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2025-01-31",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-01-31",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2025-01-31",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-01-31",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2025-01-31",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2025-01-31",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-31",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-02-07",
+     "partidos": [
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-02-07",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-07",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-02-07",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-02-07",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2025-02-07",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-02-07",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-02-07",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2025-02-07",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2025-02-14",
+     "partidos": [
+      {
+       "local": "INTER 7",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2025-02-14",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-02-14",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-02-14",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-02-14",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2025-02-14",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-02-14",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2025-02-14",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2025-02-14",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2025-02-21",
+     "partidos": [
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-02-21",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-21",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-02-21",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2025-02-21",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-02-21",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2025-02-21",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "INTER 7",
+       "fecha": "2025-02-21",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-02-21",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2025-03-07",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-03-07",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2025-03-07",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-03-07",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2025-03-07",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-03-07",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2025-03-07",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-03-07",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2025-03-07",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 14,
+     "fecha": "2025-03-14",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-03-14",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"F\"",
+       "fecha": "2025-03-14",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-03-14",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-03-14",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES C. DENTAL FERSO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-03-14",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2025-03-14",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES CF",
+       "visitante": "UD MÓSTOLES BALOMPIE \"E\"",
+       "fecha": "2025-03-14",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-03-14",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 15,
+     "fecha": "2025-03-21",
+     "partidos": [
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"F\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2025-03-21",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"E\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-03-21",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD MÓSTOLES CF",
+       "fecha": "2025-03-21",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2025-03-21",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "ASD MÓSTOLES C. DENTAL FERSO",
+       "fecha": "2025-03-21",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-03-21",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-03-21",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-03-21",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alevin",
+   "nombre": "Alevín",
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/ALEVÍN",
+   "pdf": null,
+   "pdf_fecha": "2024-10-28",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2024-11-08",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-11-08",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2024-11-08",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-11-08",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2024-11-08",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2024-11-08",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2024-11-08",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2024-11-08",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2024-11-15",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "ASD MÓSTOLES NICE ESPAÑA",
+       "fecha": "2024-11-15",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2024-11-15",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-15",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2024-11-15",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2024-11-15",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2024-11-15",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "INTER 7",
+       "fecha": "2024-11-15",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2024-11-22",
+     "partidos": [
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2024-11-22",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-11-22",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-11-22",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-11-22",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2024-11-22",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CCD IVIASA",
+       "fecha": "2024-11-22",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2024-11-22",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2024-11-29",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-29",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2024-11-29",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "ASD MÓSTOLES NICE ESPAÑA",
+       "fecha": "2024-11-29",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2024-11-29",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2024-11-29",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2024-11-29",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2024-11-29",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2024-12-13",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-12-13",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "INTER 7",
+       "fecha": "2024-12-13",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-12-13",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2024-12-13",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-12-13",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2024-12-13",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CCD IVIASA",
+       "fecha": "2024-12-13",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-01-10",
+     "partidos": [
+      {
+       "local": "INTER 7",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2025-01-10",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-01-10",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-01-10",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "ASD MÓSTOLES NICE ESPAÑA",
+       "fecha": "2025-01-10",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-10",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-01-10",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-01-10",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-01-17",
+     "partidos": [
+      {
+       "local": "CCD IVIASA",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2025-01-17",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-01-17",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-01-17",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-01-17",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2025-01-17",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-01-17",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-01-17",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-01-24",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2025-01-24",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-01-24",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-01-24",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-01-24",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "ASD MÓSTOLES NICE ESPAÑA",
+       "fecha": "2025-01-24",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-24",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2025-01-24",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-01-31",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-01-31",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-01-31",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-01-31",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-01-31",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-01-31",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2025-01-31",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-01-31",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-02-07",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-02-07",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2025-02-07",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-02-07",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-02-07",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-02-07",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "ASD MÓSTOLES NICE ESPAÑA",
+       "fecha": "2025-02-07",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-07",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2025-02-14",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-02-14",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2025-02-14",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-02-14",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-02-14",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "INTER 7",
+       "fecha": "2025-02-14",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-02-14",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2025-02-14",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2025-02-21",
+     "partidos": [
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2025-02-21",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-02-21",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2025-02-21",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-02-21",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2025-02-21",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "fecha": "2025-02-21",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES NICE ESPAÑA",
+       "fecha": "2025-02-21",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2025-03-07",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-03-07",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"E\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-03-07",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2025-03-07",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-03-07",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-03-07",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE ESPAÑA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-03-07",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-03-07",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infantil",
+   "nombre": "Infantil",
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/INFANTIL",
+   "pdf": null,
+   "pdf_fecha": "2024-10-28",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2024-11-08",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-11-08",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-11-08",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2024-11-08",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-11-08",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2024-11-08",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-08",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ARROW SPORTS CDE",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2024-11-15",
+     "partidos": [
+      {
+       "local": "ARROW SPORTS CDE",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-11-15",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2024-11-15",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2024-11-15",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "INTER 7",
+       "fecha": "2024-11-15",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CCD IVIASA",
+       "fecha": "2024-11-15",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2024-11-15",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2024-11-22",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2024-11-22",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "ARROW SPORTS CDE",
+       "fecha": "2024-11-22",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-11-22",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2024-11-22",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-11-22",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2024-11-22",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2024-11-29",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2024-11-29",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2024-11-29",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2024-11-29",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2024-11-29",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "INTER 7",
+       "fecha": "2024-11-29",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ARROW SPORTS CDE",
+       "visitante": "CCD IVIASA",
+       "fecha": "2024-11-29",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2024-12-13",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2024-12-13",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2024-12-13",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "ARROW SPORTS CDE",
+       "fecha": "2024-12-13",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2024-12-13",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2024-12-13",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2024-12-13",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2025-01-10",
+     "partidos": [
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-01-10",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-10",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-01-10",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-01-10",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ARROW SPORTS CDE",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-01-10",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-01-10",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2025-01-17",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-01-17",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-01-17",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-01-17",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "ARROW SPORTS CDE",
+       "fecha": "2025-01-17",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-01-17",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-01-17",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CCD IVIASA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2025-01-24",
+     "partidos": [
+      {
+       "local": "CCD IVIASA",
+       "visitante": "INTER 7",
+       "fecha": "2025-01-24",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-01-24",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-01-24",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ARROW SPORTS CDE",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-01-24",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-01-24",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-01-24",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2025-01-31",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-01-31",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-01-31",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-01-31",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-01-31",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ARROW SPORTS CDE",
+       "fecha": "2025-01-31",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-01-31",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2025-02-07",
+     "partidos": [
+      {
+       "local": "INTER 7",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-02-07",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-02-07",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ARROW SPORTS CDE",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-02-07",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-07",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-02-07",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-02-07",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2025-02-14",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2025-02-14",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-02-14",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-02-14",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-02-14",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-02-14",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ARROW SPORTS CDE",
+       "fecha": "2025-02-14",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2025-02-21",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "fecha": "2025-02-21",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ARROW SPORTS CDE",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2025-02-21",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2025-02-21",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2025-02-21",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CCD IVIASA",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2025-02-21",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2025-02-21",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2025-03-07",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ARROW SPORTS CDE",
+       "fecha": "2025-03-07",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2025-03-07",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "INTER 7",
+       "fecha": "2025-03-07",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CCD IVIASA",
+       "fecha": "2025-03-07",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "EUROCOLEGIO CASVI VILLAVICIOSA",
+       "fecha": "2025-03-07",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2025-03-07",
+       "hora": "21:10",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"D\"",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
