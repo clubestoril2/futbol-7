@@ -1,0 +1,2352 @@
+{
+ "temporada_id": "2026-27",
+ "temporada": "2026/27",
+ "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario",
+ "actualizado": "2026-11-08",
+ "categorias": [
+  {
+   "id": "prebenjamin-f1",
+   "nombre": "Prebenjamín · 1ª fase",
+   "categoria": "prebenjamin",
+   "categoria_nombre": "Prebenjamín",
+   "fase": "1ª fase",
+   "grupo": null,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/PREBENJAMIN",
+   "pdf": null,
+   "pdf_fecha": "2026-11-05",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2026-11-14",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-11-14",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-11-21",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-21",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-12-12",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES CAPITAL",
+       "fecha": "2026-12-12",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2027-01-16",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-01-16",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2027-01-23",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES CAPITAL",
+       "fecha": "2027-01-23",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2027-01-30",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-01-30",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2027-02-06",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-02-06",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2027-02-13",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-02-13",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2027-02-20",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES CAPITAL",
+       "fecha": "2027-02-20",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2027-02-27",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-02-27",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2027-03-06",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES CAPITAL",
+       "fecha": "2027-03-06",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2027-03-13",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-03-13",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2027-04-03",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-04-03",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 14,
+     "fecha": "2027-04-10",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-04-10",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 15,
+     "fecha": "2027-04-17",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES CAPITAL",
+       "fecha": "2027-04-17",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 16,
+     "fecha": "2027-04-24",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-04-24",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 17,
+     "fecha": "2027-05-08",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES CAPITAL",
+       "fecha": "2027-05-08",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 18,
+     "fecha": "2027-05-22",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES CAPITAL",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-05-22",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "benjamin-f1-g1",
+   "nombre": "Benjamín · 1ª fase · grupo 1",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": "1ª fase",
+   "grupo": 1,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/BENJAMIN",
+   "pdf": null,
+   "pdf_fecha": "2026-11-05",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2026-11-06",
+     "partidos": [
+      {
+       "local": "INTER 7 BS",
+       "visitante": "ASD MÓSTOLES NICE FOR YOU",
+       "fecha": "2026-11-06",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-06",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ATHLETIC MÓSTOLES",
+       "visitante": "INTER 7 VR",
+       "fecha": "2026-11-06",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-11-13",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ATHLETIC MÓSTOLES",
+       "fecha": "2026-11-13",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE FOR YOU",
+       "visitante": "INTER 7 VR",
+       "fecha": "2026-11-13",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2026-11-13",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-11-20",
+     "partidos": [
+      {
+       "local": "INTER 7 VR",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-20",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ATHLETIC MÓSTOLES",
+       "visitante": "INTER 7 BS",
+       "fecha": "2026-11-20",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "ASD MÓSTOLES NICE FOR YOU",
+       "fecha": "2026-11-20",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-11-27",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES NICE FOR YOU",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-27",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "INTER 7 VR",
+       "fecha": "2026-11-27",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "ATHLETIC MÓSTOLES",
+       "fecha": "2026-11-27",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-12-11",
+     "partidos": [
+      {
+       "local": "INTER 7 VR",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2026-12-11",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ATHLETIC MÓSTOLES",
+       "visitante": "ASD MÓSTOLES NICE FOR YOU",
+       "fecha": "2026-12-11",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "INTER 7 BS",
+       "fecha": "2026-12-11",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2027-01-08",
+     "partidos": [
+      {
+       "local": "INTER 7 VR",
+       "visitante": "ATHLETIC MÓSTOLES",
+       "fecha": "2027-01-08",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2027-01-08",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE FOR YOU",
+       "visitante": "INTER 7 BS",
+       "fecha": "2027-01-08",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2027-01-15",
+     "partidos": [
+      {
+       "local": "INTER 7 VR",
+       "visitante": "ASD MÓSTOLES NICE FOR YOU",
+       "fecha": "2027-01-15",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ATHLETIC MÓSTOLES",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-01-15",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "INTER 7 BS",
+       "fecha": "2027-01-15",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2027-01-22",
+     "partidos": [
+      {
+       "local": "INTER 7 BS",
+       "visitante": "ATHLETIC MÓSTOLES",
+       "fecha": "2027-01-22",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES NICE FOR YOU",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2027-01-22",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "INTER 7 VR",
+       "fecha": "2027-01-22",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2027-01-29",
+     "partidos": [
+      {
+       "local": "ATHLETIC MÓSTOLES",
+       "visitante": "UD MÓSTOLES BALOMPIE \"D\"",
+       "fecha": "2027-01-29",
+       "hora": "20:20",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7 VR",
+       "visitante": "INTER 7 BS",
+       "fecha": "2027-01-29",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES NICE FOR YOU",
+       "fecha": "2027-01-29",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2027-02-05",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES NICE FOR YOU",
+       "visitante": "ATHLETIC MÓSTOLES",
+       "fecha": "2027-02-05",
+       "hora": "17:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"D\"",
+       "visitante": "INTER 7 VR",
+       "fecha": "2027-02-05",
+       "hora": "17:00",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-02-05",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "benjamin-f1-g2",
+   "nombre": "Benjamín · 1ª fase · grupo 2",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": "1ª fase",
+   "grupo": 2,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/BENJAMIN",
+   "pdf": null,
+   "pdf_fecha": "2026-11-05",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2026-11-06",
+     "partidos": [
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"C\"",
+       "visitante": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-11-06",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2026-11-06",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-11-13",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2026-11-13",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"C\"",
+       "fecha": "2026-11-13",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-11-20",
+     "partidos": [
+      {
+       "local": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2026-11-20",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"C\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-11-20",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-11-27",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "UD MÓSTOLES BALOMPIE \"C\"",
+       "fecha": "2026-11-27",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-11-27",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-12-11",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-12-11",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2026-12-11",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2027-01-08",
+     "partidos": [
+      {
+       "local": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"C\"",
+       "fecha": "2027-01-08",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2027-01-08",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2027-01-15",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-01-15",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"C\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2027-01-15",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2027-01-22",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-01-22",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "UD MÓSTOLES BALOMPIE \"C\"",
+       "fecha": "2027-01-22",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2027-01-29",
+     "partidos": [
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"C\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2027-01-29",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-01-29",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2027-02-05",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2027-02-05",
+       "hora": "17:50",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CD TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-02-05",
+       "hora": "17:50",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE \"C\"",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "benjamin-f1-g3",
+   "nombre": "Benjamín · 1ª fase · grupo 3",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": "1ª fase",
+   "grupo": 3,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/BENJAMIN",
+   "pdf": null,
+   "pdf_fecha": "2026-11-05",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2026-11-06",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-11-06",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2026-11-06",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-11-13",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2026-11-13",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-11-13",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-11-20",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2026-11-20",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2026-11-20",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-11-27",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-11-27",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-11-27",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-12-11",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2026-12-11",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2026-12-11",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2027-01-08",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-01-08",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2027-01-08",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2027-01-15",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2027-01-15",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2027-01-15",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2027-01-22",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-01-22",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-01-22",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2027-01-29",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2027-01-29",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2027-01-29",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES EUROVAN 2000",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2027-02-05",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES EUROVAN 2000",
+       "fecha": "2027-02-05",
+       "hora": "17:50",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-02-05",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alevin-f1",
+   "nombre": "Alevín · 1ª fase",
+   "categoria": "alevin",
+   "categoria_nombre": "Alevín",
+   "fase": "1ª fase",
+   "grupo": null,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/ALEVÍN",
+   "pdf": null,
+   "pdf_fecha": "2026-11-05",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2026-11-06",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2026-11-06",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2026-11-06",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-11-06",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-11-06",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2026-11-06",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-06",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2026-11-06",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-11-13",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2026-11-13",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2026-11-13",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "UD MÓSTOLES BALOMPIE",
+       "fecha": "2026-11-13",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD INTER PUMAS",
+       "fecha": "2026-11-13",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-11-13",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2026-11-13",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2026-11-13",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-11-20",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2026-11-20",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-11-20",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2026-11-20",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-11-20",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-11-20",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2026-11-20",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-20",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-11-27",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "UD MÓSTOLES BALOMPIE",
+       "fecha": "2026-11-27",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2026-11-27",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2026-11-27",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-27",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD INTER PUMAS",
+       "fecha": "2026-11-27",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-11-27",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2026-11-27",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-12-11",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-12-11",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2026-12-11",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-12-11",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2026-12-11",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2026-12-11",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-12-11",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2026-12-11",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2026-12-18",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD INTER PUMAS",
+       "fecha": "2026-12-18",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-12-18",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2026-12-18",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2026-12-18",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "UD MÓSTOLES BALOMPIE",
+       "fecha": "2026-12-18",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2026-12-18",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-12-18",
+       "hora": "17:50",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2027-01-08",
+     "partidos": [
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-01-08",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2027-01-08",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2027-01-08",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-01-08",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2027-01-08",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-01-08",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2027-01-08",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2027-01-15",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-01-15",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2027-01-15",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-01-15",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2027-01-15",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2027-01-15",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "UD MÓSTOLES BALOMPIE",
+       "fecha": "2027-01-15",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD INTER PUMAS",
+       "fecha": "2027-01-15",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2027-01-22",
+     "partidos": [
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-01-22",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2027-01-22",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2027-01-22",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2027-01-22",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-01-22",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2027-01-22",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-01-22",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2027-01-29",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2027-01-29",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-01-29",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-01-29",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-01-29",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2027-01-29",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2027-01-29",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "UD MÓSTOLES BALOMPIE",
+       "fecha": "2027-01-29",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2027-02-05",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2027-02-05",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "CD INTER PUMAS",
+       "fecha": "2027-02-05",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-02-05",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2027-02-05",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2027-02-05",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-02-05",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2027-02-05",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2027-02-12",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-02-12",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-02-12",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-02-12",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2027-02-12",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES MARTÍN VECINO",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2027-02-12",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD INTER PUMAS",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "fecha": "2027-02-12",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "UD MÓSTOLES BALOMPIE",
+       "visitante": "ASD MÓSTOLES VAES",
+       "fecha": "2027-02-12",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2027-02-19",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES",
+       "fecha": "2027-02-19",
+       "hora": "19:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"C\"",
+       "visitante": "UD MÓSTOLES BALOMPIE",
+       "fecha": "2027-02-19",
+       "hora": "19:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD INTER PUMAS",
+       "fecha": "2027-02-19",
+       "hora": "18:40",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-02-19",
+       "hora": "18:40",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD MÓSTOLES",
+       "fecha": "2027-02-19",
+       "hora": "18:40",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES VAES",
+       "visitante": "ASD MÓSTOLES MARTÍN VECINO",
+       "fecha": "2027-02-19",
+       "hora": "18:40",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-02-19",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infantil-f1",
+   "nombre": "Infantil · 1ª fase",
+   "categoria": "infantil",
+   "categoria_nombre": "Infantil",
+   "fase": "1ª fase",
+   "grupo": null,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/INFANTIL",
+   "pdf": null,
+   "pdf_fecha": "2026-11-05",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2026-11-06",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2026-11-06",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-11-06",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2026-11-06",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-11-06",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "INTER 7 BS",
+       "fecha": "2026-11-06",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2026-11-13",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2026-11-13",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-13",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-11-13",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2026-11-13",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"C\"",
+       "fecha": "2026-11-13",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2026-11-20",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "INTER 7 BS",
+       "fecha": "2026-11-20",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-11-20",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-11-20",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2026-11-20",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-11-20",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2026-11-27",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"C\"",
+       "fecha": "2026-11-27",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2026-11-27",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2026-11-27",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2026-11-27",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2026-11-27",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "INTER 7 BS",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2026-12-11",
+     "partidos": [
+      {
+       "local": "INTER 7 BS",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2026-12-11",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2026-12-11",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2026-12-11",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2026-12-11",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2026-12-11",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2027-01-08",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"C\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2027-01-08",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "INTER 7 BS",
+       "fecha": "2027-01-08",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2027-01-08",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-01-08",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-01-08",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2027-01-15",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2027-01-15",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"C\"",
+       "fecha": "2027-01-15",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2027-01-15",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-01-15",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-01-15",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2027-01-22",
+     "partidos": [
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-01-22",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-01-22",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "INTER 7 BS",
+       "fecha": "2027-01-22",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2027-01-22",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-01-22",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2027-01-29",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CD ESTORIL II \"A\"",
+       "fecha": "2027-01-29",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2027-01-29",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CONSTELACIONES MÓSTOLES \"C\"",
+       "fecha": "2027-01-29",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2027-01-29",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-01-29",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2027-02-05",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"C\"",
+       "visitante": "CD ESTORIL II \"B\"",
+       "fecha": "2027-02-05",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "visitante": "CD ESTORIL II \"D\"",
+       "fecha": "2027-02-05",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"B\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "fecha": "2027-02-05",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"C\"",
+       "visitante": "INTER 7 BS",
+       "fecha": "2027-02-05",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CONSTELACIONES MÓSTOLES \"A\"",
+       "visitante": "ASD MÓSTOLES GOMARCAR",
+       "fecha": "2027-02-05",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2027-02-12",
+     "partidos": [
+      {
+       "local": "CD ESTORIL II \"A\"",
+       "visitante": "CDE TECHNITEAM MÓSTOLES \"A\"",
+       "fecha": "2027-02-12",
+       "hora": "20:20",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES GOMARCAR",
+       "visitante": "CD ESTORIL II \"C\"",
+       "fecha": "2027-02-12",
+       "hora": "19:30",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "INTER 7 BS",
+       "visitante": "CONSTELACIONES MÓSTOLES \"A\"",
+       "fecha": "2027-02-12",
+       "hora": "19:30",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM MÓSTOLES \"B\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"C\"",
+       "fecha": "2027-02-12",
+       "hora": "20:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD ESTORIL II \"D\"",
+       "visitante": "CONSTELACIONES MÓSTOLES \"B\"",
+       "fecha": "2027-02-12",
+       "hora": "20:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD ESTORIL II \"B\"",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

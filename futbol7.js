@@ -247,10 +247,24 @@
         });
     };
 
-    /* Categorías visibles con el filtro actual */
+    /* Id de categoría base de un calendario (benjamin-f1-g2 -> benjamin). */
+    function categoriaDe(c) { return c.categoria || c.id; }
+    function nombreCategoriaDe(c) { return c.categoria_nombre || c.nombre; }
+
+    /* Calendarios (categoría, fase, grupo) visibles con el filtro actual */
     Futbol7.prototype.categoriasVisibles = function () {
         var cat = this.estado.categoria;
-        return (this.datos.categorias || []).filter(function (c) { return !cat || c.id === cat; });
+        return (this.datos.categorias || []).filter(function (c) { return !cat || categoriaDe(c) === cat; });
+    };
+
+    /* Categorías base de la temporada, en orden y sin repetir: [{id, nombre}] */
+    Futbol7.prototype.categoriasBase = function () {
+        var vistas = {}, lista = [];
+        (this.datos.categorias || []).forEach(function (c) {
+            var id = categoriaDe(c);
+            if (!vistas[id]) { vistas[id] = true; lista.push({ id: id, nombre: nombreCategoriaDe(c) }); }
+        });
+        return lista;
     };
 
     /* Jornadas disponibles (número -> fechas) para las categorías visibles */
@@ -314,7 +328,7 @@
 
         if (!this.datos) { return; }
 
-        nodo.appendChild(this.grupo('Categoría', this.datos.categorias.map(function (c) {
+        nodo.appendChild(this.grupo('Categoría', this.categoriasBase().map(function (c) {
             var activo = c.id === est.categoria;
             return yo.boton(c.nombre, activo, function () {
                 yo.aplicarEstado({ categoria: activo ? null : c.id });
@@ -393,24 +407,39 @@
         nodo.appendChild(this.encabezado(1, { 'class': 'f7-temporada' },
             ['Calendario de la temporada ' + datos.temporada]));
 
-        var categorias = this.categoriasVisibles();
         var hayAlgo = false;
 
-        categorias.forEach(function (c) {
-            var jornadas = (c.jornadas || []).filter(function (j) { return !est.jornada || j.numero === est.jornada; });
-            if (!jornadas.length) { return; }
+        /* Una sección por categoría; dentro, cada fase o grupo con sus jornadas. */
+        this.categoriasBase().forEach(function (base) {
+            var calendarios = yo.categoriasVisibles().filter(function (c) { return categoriaDe(c) === base.id; });
+            var bloques = [];
+            calendarios.forEach(function (c) {
+                var jornadas = (c.jornadas || []).filter(function (j) { return !est.jornada || j.numero === est.jornada; });
+                if (jornadas.length) { bloques.push({ calendario: c, jornadas: jornadas }); }
+            });
+            if (!bloques.length) { return; }
             hayAlgo = true;
-            var seccion = el('section', { 'class': 'f7-categoria', id: c.id });
-            seccion.appendChild(yo.encabezado(2, { 'class': 'f7-categoria__titulo' }, [c.nombre]));
+            var seccion = el('section', { 'class': 'f7-categoria', id: base.id });
+            seccion.appendChild(yo.encabezado(2, { 'class': 'f7-categoria__titulo' }, [base.nombre]));
 
-            var meta = [];
-            if (c.pdf) {
-                meta.push(el('a', { href: c.pdf, target: '_blank', rel: 'noopener noreferrer', text: 'Calendario oficial (PDF)' }));
-            }
-            if (c.pdf_fecha) { meta.push((meta.length ? ' · ' : '') + 'publicado el ' + fechaNumerica(c.pdf_fecha)); }
-            if (meta.length) { seccion.appendChild(el('p', { 'class': 'ce-meta' }, meta)); }
+            bloques.forEach(function (b) {
+                var c = b.calendario;
+                var conSubtitulo = !!(c.fase || c.grupo);
+                var subtitulo = [c.fase, c.grupo ? 'grupo ' + c.grupo : null].filter(Boolean).join(' · ');
+                if (conSubtitulo) {
+                    seccion.appendChild(yo.encabezado(3, { 'class': 'f7-fase__titulo', id: c.id }, [subtitulo]));
+                }
+                var meta = [];
+                if (c.pdf) {
+                    meta.push(el('a', { href: c.pdf, target: '_blank', rel: 'noopener noreferrer', text: 'Calendario oficial (PDF)' }));
+                }
+                if (c.pdf_fecha) { meta.push((meta.length ? ' · ' : '') + 'publicado el ' + fechaNumerica(c.pdf_fecha)); }
+                if (meta.length) { seccion.appendChild(el('p', { 'class': 'ce-meta' }, meta)); }
 
-            jornadas.forEach(function (j) { seccion.appendChild(yo.pintarJornada(c, j)); });
+                b.jornadas.forEach(function (j) {
+                    seccion.appendChild(yo.pintarJornada(c, j, { nivel: conSubtitulo ? 4 : 3 }));
+                });
+            });
             nodo.appendChild(seccion);
         });
 

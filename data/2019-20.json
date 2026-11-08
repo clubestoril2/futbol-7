@@ -1,0 +1,1403 @@
+{
+ "temporada_id": "2019-20",
+ "temporada": "2019/20",
+ "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario",
+ "actualizado": "2026-11-08",
+ "categorias": [
+  {
+   "id": "prebenjamin",
+   "nombre": "Prebenjamín",
+   "categoria": "prebenjamin",
+   "categoria_nombre": "Prebenjamín",
+   "fase": null,
+   "grupo": null,
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/PREBENJAMÍN",
+   "pdf": null,
+   "pdf_fecha": "2019-11-06",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2019-11-16",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "C.D LA VILLA \"A\"",
+       "fecha": "2019-11-16",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CF ESTORIL II",
+       "fecha": "2019-11-16",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD LA VILLA \"B\"",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2019-11-16",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "descansa": true,
+       "fecha": "2019-11-16"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2019-11-23",
+     "partidos": [
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "descansa": true,
+       "fecha": "2019-11-23"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "visitante": "C.D INTERNACIONAL DE MÓST.",
+       "fecha": "2019-11-23",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CF ESTORIL II",
+       "visitante": "CD LA VILLA \"B\"",
+       "fecha": "2019-11-23",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2019-11-23",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2019-11-30",
+     "partidos": [
+      {
+       "local": "CF ESTORIL II",
+       "descansa": true,
+       "fecha": "2019-11-30"
+      },
+      {
+       "local": "CD LA VILLA \"B\"",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2019-11-30",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "C.D LA VILLA \"A\"",
+       "fecha": "2019-11-30",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2019-11-30",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2019-12-14",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "CD LA VILLA \"B\"",
+       "fecha": "2019-12-14",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CF ESTORIL II",
+       "visitante": "C.D INTERNACIONAL DE MÓST.",
+       "fecha": "2019-12-14",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "descansa": true,
+       "fecha": "2019-12-14"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2019-12-14",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2020-01-18",
+     "partidos": [
+      {
+       "local": "CD LA VILLA \"B\"",
+       "visitante": "C.D LA VILLA \"A\"",
+       "fecha": "2020-01-18",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true,
+       "fecha": "2020-01-18"
+      },
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2020-01-18",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "CF ESTORIL II",
+       "fecha": "2020-01-18",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2020-01-25",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-01-25",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "visitante": "CF ESTORIL II",
+       "fecha": "2020-01-25",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "C.D INTERNACIONAL DE MÓST.",
+       "fecha": "2020-01-25",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD LA VILLA \"B\"",
+       "descansa": true,
+       "fecha": "2020-01-25"
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2020-02-01",
+     "partidos": [
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-02-01",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "visitante": "CD LA VILLA \"B\"",
+       "fecha": "2020-02-01",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "descansa": true,
+       "fecha": "2020-02-01"
+      },
+      {
+       "local": "CF ESTORIL II",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2020-02-01",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2020-02-08",
+     "partidos": [
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "descansa": true,
+       "fecha": "2020-02-08"
+      },
+      {
+       "local": "CF ESTORIL II",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-02-08",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "CD LA VILLA \"B\"",
+       "fecha": "2020-02-08",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2020-02-08",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2020-02-22",
+     "partidos": [
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "visitante": "C.D LA VILLA \"A\"",
+       "fecha": "2020-02-22",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "descansa": true,
+       "fecha": "2020-02-22"
+      },
+      {
+       "local": "CD LA VILLA \"B\"",
+       "visitante": "CF ESTORIL II",
+       "fecha": "2020-02-22",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2020-02-22",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2020-03-07",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CD LA VILLA \"B\"",
+       "fecha": "2020-03-07",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-03-07",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CF ESTORIL II",
+       "descansa": true,
+       "fecha": "2020-03-07"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "C.D INTERNACIONAL DE MÓST.",
+       "fecha": "2020-03-07",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 11,
+     "fecha": "2020-03-14",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF",
+       "descansa": true,
+       "fecha": "2020-03-14"
+      },
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "visitante": "CF ESTORIL II",
+       "fecha": "2020-03-14",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "C.D LA VILLA \"A\"",
+       "fecha": "2020-03-14",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD LA VILLA \"B\"",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-03-14",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 12,
+     "fecha": "2020-03-28",
+     "partidos": [
+      {
+       "local": "CF ESTORIL II",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-03-28",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true,
+       "fecha": "2020-03-28"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "C.D INTERNACIONAL DE MÓST.",
+       "fecha": "2020-03-28",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "visitante": "CD LA VILLA \"B\"",
+       "fecha": "2020-03-28",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2020-04-18",
+     "partidos": [
+      {
+       "local": "CF ESTORIL II",
+       "visitante": "C.D LA VILLA \"A\"",
+       "fecha": "2020-04-18",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "MÓSTOLES CF",
+       "fecha": "2020-04-18",
+       "hora": "11:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D INTERNACIONAL DE MÓST.",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-04-18",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD LA VILLA \"B\"",
+       "descansa": true,
+       "fecha": "2020-04-18"
+      }
+     ]
+    },
+    {
+     "numero": 14,
+     "fecha": "2020-04-25",
+     "partidos": [
+      {
+       "local": "CD LA VILLA \"B\"",
+       "visitante": "C.D INTERNACIONAL DE MÓST.",
+       "fecha": "2020-04-25",
+       "hora": "10:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D LA VILLA \"A\"",
+       "descansa": true,
+       "fecha": "2020-04-25"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-04-25",
+       "hora": "12:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF",
+       "visitante": "CF ESTORIL II",
+       "fecha": "2020-04-25",
+       "hora": "13:00",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "benjamin-v2",
+   "nombre": "Benjamín · 2ª vuelta",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": "2ª vuelta",
+   "grupo": null,
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/2ª VUELTA/BENJAMÍN.",
+   "pdf": null,
+   "pdf_fecha": "2020-02-20",
+   "jornadas": [
+    {
+     "numero": 12,
+     "fecha": "2020-02-21",
+     "partidos": [
+      {
+       "local": "CD TECHNITEAM \"A\"",
+       "visitante": "ACD ENTIERGAL \"A\"",
+       "fecha": "2020-02-21",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D. INTERNACIONAL MOST. \"B\"",
+       "visitante": "CD TECHNITEAM \"B\"",
+       "fecha": "2020-02-21",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D.MÓSTOLES URJC",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-02-21",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL \"B\"",
+       "visitante": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "fecha": "2020-02-21",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "MÓSTOLES CF- ESTORIL II",
+       "fecha": "2020-02-21",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 13,
+     "fecha": "2020-03-06",
+     "partidos": [
+      {
+       "local": "CD TECHNITEAM \"B\"",
+       "visitante": "CD TECHNITEAM \"A\"",
+       "fecha": "2020-03-06",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-03-06",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL \"A\"",
+       "visitante": "ACD ENTIERGAL \"B\"",
+       "fecha": "2020-03-06",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES",
+       "visitante": "MÓSTOLES CF- ESTORIL II",
+       "fecha": "2020-03-06",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D.MÓSTOLES URJC",
+       "visitante": "C.D. INTERNACIONAL MOST. \"B\"",
+       "fecha": "2020-03-06",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 14,
+     "fecha": "2020-03-13",
+     "partidos": [
+      {
+       "local": "MÓSTOLES CF- ESTORIL II",
+       "visitante": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "fecha": "2020-03-13",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD TECHNITEAM \"A\"",
+       "visitante": "C.D.MÓSTOLES URJC",
+       "fecha": "2020-03-13",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL \"B\"",
+       "visitante": "CD TECHNITEAM \"B\"",
+       "fecha": "2020-03-13",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "ACD ENTIERGAL \"A\"",
+       "fecha": "2020-03-13",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D. INTERNACIONAL MOST. \"B\"",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-03-13",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 15,
+     "fecha": "2020-03-20",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES",
+       "visitante": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "fecha": "2020-03-20",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL \"A\"",
+       "visitante": "MÓSTOLES CF- ESTORIL II",
+       "fecha": "2020-03-20",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD TECHNITEAM \"B\"",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-03-20",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D.MÓSTOLES URJC",
+       "visitante": "ACD ENTIERGAL \"B\"",
+       "fecha": "2020-03-20",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D. INTERNACIONAL MOST. \"B\"",
+       "visitante": "CD TECHNITEAM \"A\"",
+       "fecha": "2020-03-20",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 16,
+     "fecha": "2020-03-27",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL \"B\"",
+       "visitante": "C.D. INTERNACIONAL MOST. \"B\"",
+       "fecha": "2020-03-27",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD TECHNITEAM \"A\"",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-03-27",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "C.D.MÓSTOLES URJC",
+       "fecha": "2020-03-27",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES CF- ESTORIL II",
+       "visitante": "CD TECHNITEAM \"B\"",
+       "fecha": "2020-03-27",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "visitante": "ACD ENTIERGAL \"A\"",
+       "fecha": "2020-03-27",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 17,
+     "fecha": "2020-04-17",
+     "partidos": [
+      {
+       "local": "C.D.MÓSTOLES URJC",
+       "visitante": "MÓSTOLES CF- ESTORIL II",
+       "fecha": "2020-04-17",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "CD TECHNITEAM \"B\"",
+       "visitante": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "fecha": "2020-04-17",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ASD MÓSTOLES",
+       "visitante": "ACD ENTIERGAL \"A\"",
+       "fecha": "2020-04-17",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D. INTERNACIONAL MOST. \"B\"",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-04-17",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "CD TECHNITEAM \"A\"",
+       "visitante": "ACD ENTIERGAL \"B\"",
+       "fecha": "2020-04-17",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    },
+    {
+     "numero": 18,
+     "fecha": "2020-04-24",
+     "partidos": [
+      {
+       "local": "C.D. INTERNACIONAL MOST.  \"A\"",
+       "visitante": "C.D.MÓSTOLES URJC",
+       "fecha": "2020-04-24",
+       "hora": "17:30",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "CD TECHNITEAM \"A\"",
+       "fecha": "2020-04-24",
+       "hora": "17:30",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES CF- ESTORIL II",
+       "visitante": "C.D. INTERNACIONAL MOST. \"B\"",
+       "fecha": "2020-04-24",
+       "hora": "18:20",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ACD ENTIERGAL \"B\"",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-04-24",
+       "hora": "18:20",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL \"A\"",
+       "visitante": "CD TECHNITEAM \"B\"",
+       "fecha": "2020-04-24",
+       "hora": "19:10",
+       "campo": "Campo 1 zona A"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alevin-v2-g1",
+   "nombre": "Alevín · 2ª vuelta · grupo 1",
+   "categoria": "alevin",
+   "categoria_nombre": "Alevín",
+   "fase": "2ª vuelta",
+   "grupo": 1,
+   "competicion": "FÚTBOL 7/2ª VUELTA DE LA LIGA/ALEVÍN/GRUPO 1",
+   "pdf": null,
+   "pdf_fecha": "2020-02-13",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2020-02-21",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2020-02-21",
+       "hora": "18:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"C\"",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-02-21",
+       "hora": "18:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2020-03-06",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "CDE TECHNITEAM \"C\"",
+       "fecha": "2020-03-06",
+       "hora": "18:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-03-06",
+       "hora": "18:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2020-03-13",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"C\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2020-03-13",
+       "hora": "18:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-03-13",
+       "hora": "18:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2020-03-27",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "CDE TECHNITEAM \"C\"",
+       "fecha": "2020-03-27",
+       "hora": "18:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-03-27",
+       "hora": "18:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2020-04-17",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "CD MÓSTOLES URJC",
+       "fecha": "2020-04-17",
+       "hora": "18:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"C\"",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-04-17",
+       "hora": "18:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2020-04-24",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-04-24",
+       "hora": "18:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CD MÓSTOLES URJC",
+       "visitante": "CDE TECHNITEAM \"C\"",
+       "fecha": "2020-04-24",
+       "hora": "18:00",
+       "campo": "Campo 2 zona B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alevin-v2-g2",
+   "nombre": "Alevín · 2ª vuelta · grupo 2",
+   "categoria": "alevin",
+   "categoria_nombre": "Alevín",
+   "fase": "2ª vuelta",
+   "grupo": 2,
+   "competicion": "FÚTBOL 7/2ª VUELTA DE LA LIGA/ALEVÍN/GRUPO 2",
+   "pdf": null,
+   "pdf_fecha": "2020-02-13",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2020-02-21",
+     "partidos": [
+      {
+       "local": "SPORTING VILLA",
+       "visitante": "EUROCOLEGIO CASVI",
+       "fecha": "2020-02-21",
+       "hora": "20:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-02-21",
+       "hora": "20:00",
+       "campo": "Campo 1 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2020-03-06",
+     "partidos": [
+      {
+       "local": "SPORTING VILLA",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-03-06",
+       "hora": "20:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-03-06",
+       "hora": "20:00",
+       "campo": "Campo 1 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2020-03-13",
+     "partidos": [
+      {
+       "local": "ASD MÓSTOLES",
+       "visitante": "EUROCOLEGIO CASVI",
+       "fecha": "2020-03-13",
+       "hora": "20:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "SPORTING VILLA",
+       "fecha": "2020-03-13",
+       "hora": "20:00",
+       "campo": "Campo 1 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2020-03-27",
+     "partidos": [
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-03-27",
+       "hora": "20:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI",
+       "visitante": "SPORTING VILLA",
+       "fecha": "2020-03-27",
+       "hora": "20:00",
+       "campo": "Campo 1 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2020-04-17",
+     "partidos": [
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "EUROCOLEGIO CASVI",
+       "fecha": "2020-04-17",
+       "hora": "20:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "ASD MÓSTOLES",
+       "visitante": "SPORTING VILLA",
+       "fecha": "2020-04-17",
+       "hora": "20:00",
+       "campo": "Campo 1 zona B"
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2020-04-24",
+     "partidos": [
+      {
+       "local": "SPORTING VILLA",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-04-24",
+       "hora": "20:00",
+       "campo": "Campo 1 zona A"
+      },
+      {
+       "local": "EUROCOLEGIO CASVI",
+       "visitante": "ASD MÓSTOLES",
+       "fecha": "2020-04-24",
+       "hora": "20:00",
+       "campo": "Campo 1 zona B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "alevin-v2-g3",
+   "nombre": "Alevín · 2ª vuelta · grupo 3",
+   "categoria": "alevin",
+   "categoria_nombre": "Alevín",
+   "fase": "2ª vuelta",
+   "grupo": 3,
+   "competicion": "FÚTBOL 7/2ª VUELTA DE LA LIGA/ALEVÍN/GRUPO 3",
+   "pdf": null,
+   "pdf_fecha": "2020-02-13",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2020-02-21",
+     "partidos": [
+      {
+       "local": "C.D LA VILLA",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-02-21",
+       "hora": "19:10",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2020-03-06",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "C.D LA VILLA",
+       "fecha": "2020-03-06",
+       "hora": "19:10",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2020-03-13",
+     "partidos": [
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-03-13",
+       "hora": "19:10",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D LA VILLA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2020-03-27",
+     "partidos": [
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "visitante": "C.D LA VILLA",
+       "fecha": "2020-03-27",
+       "hora": "19:10",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "ACD ENTIERGAL",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2020-04-17",
+     "partidos": [
+      {
+       "local": "C.D LA VILLA",
+       "visitante": "ACD ENTIERGAL",
+       "fecha": "2020-04-17",
+       "hora": "19:10",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "MÓSTOLES BALOMPIE",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2020-04-24",
+     "partidos": [
+      {
+       "local": "ACD ENTIERGAL",
+       "visitante": "MÓSTOLES BALOMPIE",
+       "fecha": "2020-04-24",
+       "hora": "19:10",
+       "campo": "Campo 1 zona B"
+      },
+      {
+       "local": "C.D LA VILLA",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infantil",
+   "nombre": "Infantil",
+   "categoria": "infantil",
+   "categoria_nombre": "Infantil",
+   "fase": null,
+   "grupo": null,
+   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/INFANTIL",
+   "pdf": null,
+   "pdf_fecha": "2020-01-27",
+   "jornadas": [
+    {
+     "numero": 1,
+     "fecha": "2020-01-31",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-01-31",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "C.D LA VILLA",
+       "visitante": "ANDRÉS SEGOVIA",
+       "fecha": "2020-01-31",
+       "hora": "17:15",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "C.D ESTORIL II",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 2,
+     "fecha": "2020-02-07",
+     "partidos": [
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "C.D LA VILLA",
+       "fecha": "2020-02-07",
+       "hora": "17:15",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ANDRÉS SEGOVIA",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-02-07",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 3,
+     "fecha": "2020-02-14",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "ANDRÉS SEGOVIA",
+       "fecha": "2020-02-14",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-02-14",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "C.D LA VILLA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 4,
+     "fecha": "2020-02-21",
+     "partidos": [
+      {
+       "local": "C.D LA VILLA",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-02-21",
+       "hora": "17:15",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-02-21",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ANDRÉS SEGOVIA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 5,
+     "fecha": "2020-03-06",
+     "partidos": [
+      {
+       "local": "ANDRÉS SEGOVIA",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-03-06",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "C.D LA VILLA",
+       "fecha": "2020-03-06",
+       "hora": "17:15",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 6,
+     "fecha": "2020-03-13",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-03-13",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "ANDRÉS SEGOVIA",
+       "visitante": "C.D LA VILLA",
+       "fecha": "2020-03-13",
+       "hora": "17:15",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "C.D ESTORIL II",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 7,
+     "fecha": "2020-03-20",
+     "partidos": [
+      {
+       "local": "C.D LA VILLA",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-03-20",
+       "hora": "17:15",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "ANDRÉS SEGOVIA",
+       "fecha": "2020-03-20",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 8,
+     "fecha": "2020-03-27",
+     "partidos": [
+      {
+       "local": "ANDRÉS SEGOVIA",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-03-27",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "CDE TECHNITEAM \"A\"",
+       "fecha": "2020-03-27",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "C.D LA VILLA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 9,
+     "fecha": "2020-04-17",
+     "partidos": [
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "visitante": "C.D LA VILLA",
+       "fecha": "2020-04-17",
+       "hora": "17:15",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "CDE TECHNITEAM \"B\"",
+       "visitante": "C.D ESTORIL II",
+       "fecha": "2020-04-17",
+       "hora": "17:00",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "ANDRÉS SEGOVIA",
+       "descansa": true
+      }
+     ]
+    },
+    {
+     "numero": 10,
+     "fecha": "2020-04-24",
+     "partidos": [
+      {
+       "local": "C.D ESTORIL II",
+       "visitante": "ANDRÉS SEGOVIA",
+       "fecha": "2020-04-24",
+       "hora": "17:00",
+       "campo": "Campo 2 zona A"
+      },
+      {
+       "local": "C.D LA VILLA",
+       "visitante": "CDE TECHNITEAM \"B\"",
+       "fecha": "2020-04-24",
+       "hora": "17:15",
+       "campo": "Campo 2 zona B"
+      },
+      {
+       "local": "CDE TECHNITEAM \"A\"",
+       "descansa": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

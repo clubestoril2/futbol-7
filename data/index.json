@@ -1,6 +1,12 @@
 {
  "temporadas": [
   {
+   "id": "2019-20",
+   "nombre": "2019/20",
+   "fichero": "2019-20.json",
+   "actualizado": "2026-11-08"
+  },
+  {
    "id": "2024-25",
    "nombre": "2024/25",
    "fichero": "2024-25.json",
@@ -10,6 +16,12 @@
    "id": "2025-26",
    "nombre": "2025/26",
    "fichero": "2025-26.json",
+   "actualizado": "2026-11-08"
+  },
+  {
+   "id": "2026-27",
+   "nombre": "2026/27",
+   "fichero": "2026-27.json",
    "actualizado": "2026-11-08"
   }
  ]

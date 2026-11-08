@@ -1,14 +1,18 @@
 {
  "temporada_id": "2025-26",
  "temporada": "2025/26",
- "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica",
+ "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario",
  "actualizado": "2026-11-08",
  "categorias": [
   {
    "id": "prebenjamin",
    "nombre": "Prebenjamín",
+   "categoria": "prebenjamin",
+   "categoria_nombre": "Prebenjamín",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/PREBENJAMIN",
-   "pdf": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica.ficheros/1402942-CALENDARIO%20CAMPEONATO%20DE%20LIGA%20F%C3%9ATBOL%207%20PREBENJAMIN%2025-26.pdf",
+   "pdf": null,
    "pdf_fecha": "2025-10-21",
    "jornadas": [
     {
@@ -316,8 +320,12 @@
   {
    "id": "benjamin",
    "nombre": "Benjamín",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/BENJAMIN",
-   "pdf": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica.ficheros/1402943-CALENDARIO%20CAMPEONATO%20DE%20LIGA%20F%C3%9ATBOL%207%20BENJAMIN%2025-26.pdf",
+   "pdf": null,
    "pdf_fecha": "2025-10-23",
    "jornadas": [
     {
@@ -853,8 +861,12 @@
   {
    "id": "alevin",
    "nombre": "Alevín",
+   "categoria": "alevin",
+   "categoria_nombre": "Alevín",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/ALEVÍN",
-   "pdf": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica.ficheros/1402945-CALENDARIO%20CAMPEONATO%20DE%20LIGA%20F%C3%9ATBOL%207%20ALEV%C3%8DN%2025-26.pdf",
+   "pdf": null,
    "pdf_fecha": "2025-10-23",
    "jornadas": [
     {
@@ -1538,8 +1550,12 @@
   {
    "id": "infantil",
    "nombre": "Infantil",
+   "categoria": "infantil",
+   "categoria_nombre": "Infantil",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/INFANTIL",
-   "pdf": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica.ficheros/1402944-CALENDARIO%20CAMPEONATO%20DE%20LIGA%20F%C3%9ATBOL%207%20INFANTIL%2025-26.pdf",
+   "pdf": null,
    "pdf_fecha": "2025-10-23",
    "jornadas": [
     {

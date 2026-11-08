@@ -1,12 +1,16 @@
 {
  "temporada_id": "2024-25",
  "temporada": "2024/25",
- "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica",
+ "fuente": "https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario",
  "actualizado": "2026-11-08",
  "categorias": [
   {
    "id": "prebenjamin",
    "nombre": "Prebenjamín",
+   "categoria": "prebenjamin",
+   "categoria_nombre": "Prebenjamín",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/PREBENJAMIN",
    "pdf": null,
    "pdf_fecha": "2024-10-28",
@@ -667,6 +671,10 @@
   {
    "id": "benjamin",
    "nombre": "Benjamín",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/BENJAMIN",
    "pdf": null,
    "pdf_fecha": "2024-10-28",
@@ -1606,6 +1614,10 @@
   {
    "id": "alevin",
    "nombre": "Alevín",
+   "categoria": "alevin",
+   "categoria_nombre": "Alevín",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/ALEVÍN",
    "pdf": null,
    "pdf_fecha": "2024-10-28",
@@ -2330,6 +2342,10 @@
   {
    "id": "infantil",
    "nombre": "Infantil",
+   "categoria": "infantil",
+   "categoria_nombre": "Infantil",
+   "fase": null,
+   "grupo": null,
    "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/INFANTIL",
    "pdf": null,
    "pdf_fecha": "2024-10-28",
