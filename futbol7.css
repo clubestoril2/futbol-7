@@ -87,8 +87,7 @@
     scroll-margin-top: 4rem;
 }
 
-@media print {
-    .f7-filtros {
-        display: none;
-    }
+/* Jornada actual: separada del buscador. */
+.f7-actual {
+    margin-bottom: var(--ce-space-5);
 }

@@ -17,6 +17,13 @@
  *   data-base="https://.../"   raíz donde está la carpeta data/ (por defecto, la del script)
  *   data-temporada="2025-26"   temporada inicial (por defecto la actual o la última)
  *   data-nivel="2"             nivel del primer encabezado que se genera (h2)
+ *   data-hoy="2026-01-20"      fecha que se toma como «hoy» (solo para pruebas)
+ *
+ * Estructura que genera:
+ *   - «Jornada actual»: próxima jornada de cada categoría de la temporada en
+ *     curso (fija; no aparece si la temporada ha terminado).
+ *   - «Buscador de encuentros»: filtros de temporada, categoría y jornada y
+ *     los calendarios completos.
  */
 (function () {
     'use strict';
@@ -74,6 +81,24 @@
         return p ? dosCifras(p.d) + '/' + dosCifras(p.m) + '/' + p.a : '';
     }
 
+    function hoyISO(forzado) {
+        if (/^\d{4}-\d{2}-\d{2}$/.test(forzado || '')) { return forzado; }
+        var d = new Date();
+        return d.getFullYear() + '-' + dosCifras(d.getMonth() + 1) + '-' + dosCifras(d.getDate());
+    }
+
+    /* Última fecha de los partidos de una jornada (o la de la jornada). */
+    function ultimaFecha(jornada) {
+        var fechas = (jornada.partidos || []).map(function (p) { return p.fecha; }).filter(Boolean).sort();
+        return fechas.length ? fechas[fechas.length - 1] : (jornada.fecha || '');
+    }
+
+    /* Próxima jornada de una categoría: la primera que aún no ha terminado (hoy incluido). */
+    function jornadaActual(categoria, hoy) {
+        var pendientes = (categoria.jornadas || []).filter(function (j) { return ultimaFecha(j) >= hoy; });
+        return pendientes.length ? pendientes[0] : null;
+    }
+
     function temporadaActual() {
         var hoy = new Date();
         var inicio = hoy.getMonth() + 1 >= 7 ? hoy.getFullYear() : hoy.getFullYear() - 1;
@@ -90,7 +115,7 @@
             var kv = par.split('=');
             if (kv[0] === 't') { estado.temporada = decodeURIComponent(kv[1] || ''); }
             if (kv[0] === 'c') { estado.categoria = decodeURIComponent(kv[1] || ''); }
-            if (kv[0] === 'j') { estado.jornada = parseInt(kv[1], 10) || null; }
+            if (kv[0] === 'j') { estado.jornada = kv[1] === 'ninguna' ? 'ninguna' : (parseInt(kv[1], 10) || null); }
         });
         return estado;
     }
@@ -123,11 +148,17 @@
 
         root.classList.add('f7');
         root.setAttribute('aria-busy', 'true');
-        this.nodoFiltros = el('div', { 'class': 'f7-filtros', role: 'group', 'aria-label': 'Filtros del calendario' });
+        this.hoy = hoyISO(root.getAttribute('data-hoy'));
+        this.nodoActual = el('section', { 'class': 'f7-actual', hidden: '' });
+        this.nodoBuscador = el('section', { 'class': 'f7-buscador' });
+        this.nodoFiltros = el('div', { 'class': 'f7-filtros ce-no-imprimir', role: 'group', 'aria-label': 'Filtros del calendario' });
         this.nodoContenido = el('div', { 'class': 'f7-contenido', 'aria-live': 'polite' });
         root.textContent = '';
-        root.appendChild(this.nodoFiltros);
-        root.appendChild(this.nodoContenido);
+        root.appendChild(this.nodoActual);
+        root.appendChild(this.nodoBuscador);
+        this.nodoBuscador.appendChild(this.encabezado(0, { 'class': 'f7-buscador__titulo' }, ['Buscador de encuentros']));
+        this.nodoBuscador.appendChild(this.nodoFiltros);
+        this.nodoBuscador.appendChild(this.nodoContenido);
         this.mensaje('Cargando calendarios…', 'ce-meta');
 
         var yo = this;
@@ -169,6 +200,10 @@
             var existe = yo.temporadas.some(function (t) { return t.id === pedida; });
             inicial.temporada = existe ? pedida : yo.temporadas[yo.temporadas.length - 1].id;
             yo.temporadaPorDefecto = inicial.temporada;
+            /* La temporada en curso: la actual si está publicada, si no la última. */
+            var enCurso = yo.temporadas.some(function (t) { return t.id === temporadaActual(); })
+                ? temporadaActual() : yo.temporadas[yo.temporadas.length - 1].id;
+            yo.cargarTemporada(enCurso).then(function (datos) { yo.pintarActual(datos); }).catch(function () {});
             yo.aplicarEstado(inicial);
         }).catch(function (e) { yo.error(e); });
     };
@@ -287,7 +322,12 @@
         })));
 
         var jornadas = this.jornadasDisponibles();
-        nodo.appendChild(this.grupo('Jornada', jornadas.map(function (j) {
+        /* «Ninguna» oculta los calendarios del buscador (útil para imprimir solo la jornada actual). */
+        var ninguna = est.jornada === 'ninguna';
+        var botonesJornada = [yo.boton('Ninguna', ninguna, function () {
+            yo.aplicarEstado({ jornada: ninguna ? null : 'ninguna' });
+        }, { 'aria-label': 'Ninguna jornada: no mostrar calendarios' })];
+        nodo.appendChild(this.grupo('Jornada', botonesJornada.concat(jornadas.map(function (j) {
             var activo = j.numero === est.jornada;
             var etiqueta;
             if (!j.fechas.length) { etiqueta = ''; }
@@ -299,7 +339,7 @@
             ], activo, function () {
                 yo.aplicarEstado({ jornada: activo ? null : j.numero });
             }, { 'aria-label': 'Jornada ' + j.numero + (etiqueta ? ', ' + etiqueta : '') });
-        })));
+        }))));
 
         if (est.categoria || est.jornada) {
             nodo.appendChild(el('p', { 'class': 'f7-limpiar' }, [
@@ -311,6 +351,28 @@
         }
     };
 
+    /* Bloque fijo con la próxima jornada de cada categoría de la temporada en curso. */
+    Futbol7.prototype.pintarActual = function (datos) {
+        var yo = this, nodo = this.nodoActual;
+        nodo.textContent = '';
+        var pendientes = (datos.categorias || []).map(function (c) {
+            return { categoria: c, jornada: jornadaActual(c, yo.hoy) };
+        }).filter(function (x) { return x.jornada; });
+        if (!pendientes.length) { nodo.setAttribute('hidden', ''); return; }
+
+        nodo.appendChild(this.encabezado(0, { 'class': 'f7-actual__titulo' }, ['Jornada actual']));
+        nodo.appendChild(el('p', { 'class': 'ce-meta', text: 'Próximos encuentros de la temporada ' + datos.temporada + '.' }));
+        pendientes.forEach(function (x) {
+            nodo.appendChild(yo.pintarJornada(x.categoria, x.jornada, {
+                nivel: 1,
+                titulo: x.categoria.nombre + ' · jornada ' + x.jornada.numero +
+                    (x.jornada.fecha ? ' · ' + fechaLarga(x.jornada.fecha) : ''),
+                id: null
+            }));
+        });
+        nodo.removeAttribute('hidden');
+    };
+
     Futbol7.prototype.encabezado = function (nivelRelativo, atributos, hijos) {
         return el('h' + Math.min(this.nivel + nivelRelativo, 6), atributos, hijos);
     };
@@ -320,7 +382,15 @@
         var nodo = this.nodoContenido;
         nodo.textContent = '';
 
-        nodo.appendChild(this.encabezado(0, { 'class': 'f7-temporada' },
+        /* Con «Ninguna» el buscador queda vacío y fuera de la impresión. */
+        var ninguna = est.jornada === 'ninguna';
+        this.nodoBuscador.classList.toggle('ce-no-imprimir', ninguna);
+        if (ninguna) {
+            nodo.appendChild(el('p', { 'class': 'ce-meta', text: 'No se muestra ningún calendario. Elija una jornada o pulse «Mostrar todos los calendarios».' }));
+            return;
+        }
+
+        nodo.appendChild(this.encabezado(1, { 'class': 'f7-temporada' },
             ['Calendario de la temporada ' + datos.temporada]));
 
         var categorias = this.categoriasVisibles();
@@ -331,7 +401,7 @@
             if (!jornadas.length) { return; }
             hayAlgo = true;
             var seccion = el('section', { 'class': 'f7-categoria', id: c.id });
-            seccion.appendChild(yo.encabezado(1, { 'class': 'f7-categoria__titulo' }, [c.nombre]));
+            seccion.appendChild(yo.encabezado(2, { 'class': 'f7-categoria__titulo' }, [c.nombre]));
 
             var meta = [];
             if (c.pdf) {
@@ -360,11 +430,12 @@
         }
     };
 
-    Futbol7.prototype.pintarJornada = function (categoria, jornada) {
-        var titulo = 'Jornada ' + jornada.numero;
-        if (jornada.fecha) { titulo += ' · ' + fechaLarga(jornada.fecha); }
-        var bloque = el('div', { 'class': 'f7-jornada', id: categoria.id + '-j' + jornada.numero });
-        bloque.appendChild(this.encabezado(2, { 'class': 'f7-jornada__titulo' }, [titulo]));
+    Futbol7.prototype.pintarJornada = function (categoria, jornada, opciones) {
+        opciones = opciones || {};
+        var titulo = opciones.titulo || ('Jornada ' + jornada.numero + (jornada.fecha ? ' · ' + fechaLarga(jornada.fecha) : ''));
+        var id = opciones.id === undefined ? categoria.id + '-j' + jornada.numero : opciones.id;
+        var bloque = el('div', { 'class': 'f7-jornada', id: id });
+        bloque.appendChild(this.encabezado(opciones.nivel === undefined ? 3 : opciones.nivel, { 'class': 'f7-jornada__titulo' }, [titulo]));
 
         var cuerpo = el('tbody');
         (jornada.partidos || []).forEach(function (p) {
