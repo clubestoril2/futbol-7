@@ -62,17 +62,19 @@
  */
 .f7-tabla {
     table-layout: fixed;
-    min-width: 38em; /* en pantallas estrechas se desplaza dentro de .ce-tabla */
+    min-width: 40em; /* en pantallas estrechas se desplaza dentro de .ce-tabla */
 }
 
-.f7-tabla th.f7-fecha { width: 6em; }
-.f7-tabla th.f7-hora { width: 3.2em; }
-.f7-tabla th.f7-campo { width: 8.5em; }
+/* Los anchos incluyen el relleno de la celda (0,75 rem por lado en el tema). */
+.f7-tabla th.f7-fecha { width: 8.5em; }
+.f7-tabla th.f7-hora { width: 5.5em; }
+.f7-tabla th.f7-campo { width: 11em; }
 
 .f7-tabla .f7-fecha,
 .f7-tabla .f7-hora,
 .f7-tabla .f7-campo {
     white-space: nowrap;
+    text-align: center;
 }
 
 .f7-descansa td {
