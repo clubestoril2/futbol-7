@@ -6,9 +6,12 @@
  * categoría y jornada. Sin dependencias.
  *
  * Uso en una página:
- *   <link rel="stylesheet" href="https://futbol7-app.www.clubestoril2.es/futbol7.css">
+ *   <link rel="stylesheet" href="https://clubestoril2.github.io/futbol-7/futbol7.css">
  *   <div id="futbol7-app"></div>
- *   <script src="https://futbol7-app.www.clubestoril2.es/futbol7.js" defer></script>
+ *   <script src="https://clubestoril2.github.io/futbol-7/futbol7.js" defer></script>
+ *
+ * El marcado usa las clases del tema de la web del club (ce-boton, ce-tabla,
+ * ce-meta, ce-aviso, ce-oculto); futbol7.css solo añade lo que el tema no tiene.
  *
  * Atributos opcionales del contenedor:
  *   data-base="https://.../"   raíz donde está la carpeta data/ (por defecto, la del script)
@@ -125,7 +128,7 @@
         root.textContent = '';
         root.appendChild(this.nodoFiltros);
         root.appendChild(this.nodoContenido);
-        this.mensaje('Cargando calendarios…', 'f7-cargando');
+        this.mensaje('Cargando calendarios…', 'ce-meta');
 
         var yo = this;
         window.addEventListener('hashchange', function () {
@@ -144,7 +147,7 @@
 
     Futbol7.prototype.mensaje = function (texto, clase) {
         this.nodoContenido.textContent = '';
-        this.nodoContenido.appendChild(el('p', { 'class': clase || 'f7-aviso', text: texto }));
+        this.nodoContenido.appendChild(el('p', { 'class': clase || 'ce-meta', text: texto }));
     };
 
     Futbol7.prototype.pedir = function (ruta) {
@@ -173,7 +176,7 @@
     Futbol7.prototype.error = function (e) {
         this.root.setAttribute('aria-busy', 'false');
         this.mensaje('No se han podido cargar los calendarios (' + e.message + '). ' +
-            'Puede consultarlos en la web del Ayuntamiento de Móstoles.', 'f7-error');
+            'Puede consultarlos en la web del Ayuntamiento de Móstoles.', 'ce-aviso');
         if (window.console) { console.error('futbol7', e); }
     };
 
@@ -247,7 +250,7 @@
     Futbol7.prototype.boton = function (texto, activo, alPulsar, extra) {
         var b = el('button', {
             type: 'button',
-            'class': 'f7-boton' + (activo ? ' f7-boton--activo' : ''),
+            'class': 'ce-boton ' + (activo ? 'ce-boton--primario' : 'ce-boton--secundario'),
             'aria-pressed': activo ? 'true' : 'false',
             on: { click: alPulsar }
         }, typeof texto === 'string' ? [texto] : texto);
@@ -259,7 +262,7 @@
         return el('fieldset', { 'class': 'f7-grupo' }, [
             el('legend', { 'class': 'f7-grupo__titulo', text: titulo }),
             el('div', { 'class': 'f7-grupo__botones' }, botones),
-            ayuda ? el('p', { 'class': 'f7-grupo__ayuda', text: ayuda }) : null
+            ayuda ? el('p', { 'class': 'ce-meta', text: ayuda }) : null
         ]);
     };
 
@@ -291,8 +294,8 @@
             else if (j.fechas.length === 1) { etiqueta = fechaCorta(j.fechas[0]); }
             else { etiqueta = fechaCorta(j.fechas[0]) + ' – ' + fechaCorta(j.fechas[j.fechas.length - 1]); }
             return yo.boton([
-                el('span', { 'class': 'f7-boton__numero', text: String(j.numero) }),
-                etiqueta ? el('span', { 'class': 'f7-boton__fecha', text: etiqueta }) : null
+                String(j.numero),
+                etiqueta ? el('small', { 'class': 'f7-boton__fecha', text: etiqueta }) : null
             ], activo, function () {
                 yo.aplicarEstado({ jornada: activo ? null : j.numero });
             }, { 'aria-label': 'Jornada ' + j.numero + (etiqueta ? ', ' + etiqueta : '') });
@@ -301,7 +304,7 @@
         if (est.categoria || est.jornada) {
             nodo.appendChild(el('p', { 'class': 'f7-limpiar' }, [
                 el('button', {
-                    type: 'button', 'class': 'f7-boton f7-boton--enlace', text: 'Mostrar todos los calendarios',
+                    type: 'button', 'class': 'f7-enlace', text: 'Mostrar todos los calendarios',
                     on: { click: function () { yo.aplicarEstado({ categoria: null, jornada: null }); } }
                 })
             ]));
@@ -335,14 +338,14 @@
                 meta.push(el('a', { href: c.pdf, target: '_blank', rel: 'noopener noreferrer', text: 'Calendario oficial (PDF)' }));
             }
             if (c.pdf_fecha) { meta.push((meta.length ? ' · ' : '') + 'publicado el ' + fechaNumerica(c.pdf_fecha)); }
-            if (meta.length) { seccion.appendChild(el('p', { 'class': 'f7-meta' }, meta)); }
+            if (meta.length) { seccion.appendChild(el('p', { 'class': 'ce-meta' }, meta)); }
 
             jornadas.forEach(function (j) { seccion.appendChild(yo.pintarJornada(c, j)); });
             nodo.appendChild(seccion);
         });
 
         if (!hayAlgo) {
-            nodo.appendChild(el('p', { 'class': 'f7-vacio', text: 'No hay partidos que coincidan con el filtro elegido.' }));
+            nodo.appendChild(el('p', { 'class': 'ce-meta', text: 'No hay partidos que coincidan con el filtro elegido.' }));
         }
 
         if (datos.fuente || datos.actualizado) {
@@ -353,7 +356,7 @@
             }
             if (datos.actualizado) { pie.push((pie.length ? ' · ' : '') + 'última comprobación: ' + fechaNumerica(datos.actualizado)); }
             pie.push('.');
-            nodo.appendChild(el('p', { 'class': 'f7-pie' }, pie));
+            nodo.appendChild(el('p', { 'class': 'ce-meta f7-pie' }, pie));
         }
     };
 
@@ -382,8 +385,9 @@
             ]));
         });
 
-        var tabla = el('table', { 'class': 'f7-tabla' }, [
-            el('caption', { 'class': 'f7-visualmente-oculto', text: categoria.nombre + ', ' + titulo }),
+        /* Misma estructura que las tablas del resto de la web (div.ce-tabla > table.tabla). */
+        var tabla = el('table', { 'class': 'tabla' }, [
+            el('caption', { 'class': 'ce-oculto', text: categoria.nombre + ', ' + titulo }),
             el('thead', null, [el('tr', null, [
                 el('th', { scope: 'col', text: 'Local' }),
                 el('th', { scope: 'col', text: 'Visitante' }),
@@ -393,7 +397,7 @@
             ])]),
             cuerpo
         ]);
-        bloque.appendChild(el('div', { 'class': 'f7-tabla-envoltorio' }, [tabla]));
+        bloque.appendChild(el('div', { 'class': 'ce-tabla' }, [tabla]));
         return bloque;
     };
 
