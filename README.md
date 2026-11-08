@@ -98,19 +98,29 @@ Mientras no exista el DNS del dominio propio se usa la URL de `github.io`;
 cuando se configure `futbol7-app.www.clubestoril2.es` bastará con cambiar
 las dos URL (la antigua seguirá funcionando por redirección).
 
-Al cargar, la aplicación muestra **todos los calendarios de todas las
-categorías** de la temporada actual (o de la última publicada), de modo que
-los buscadores puedan indexar el contenido completo. Encima aparecen tres
-filtros:
+La aplicación genera dos bloques:
+
+1. **Jornada actual**: la próxima jornada de cada categoría de la temporada
+   en curso (la primera cuyos partidos aún no se han jugado, el día de la
+   jornada incluido). No aparece si la temporada ha terminado.
+2. **Buscador de encuentros**: los filtros y, debajo, **todos los calendarios
+   de todas las categorías** de la temporada actual (o de la última
+   publicada), de modo que los buscadores puedan indexar el contenido
+   completo. Los filtros llevan la clase `ce-no-imprimir` del tema y no se
+   imprimen.
+
+Los filtros son:
 
 - **Temporada**: obligatoria; la seleccionada aparece resaltada.
 - **Categoría**: opcional; pulsar de nuevo la deselecciona.
 - **Jornada**: opcional; cada botón muestra el número y la fecha en formato
   `10/nov` (si varía entre categorías, el intervalo `07/nov – 15/nov`).
+  El botón **Ninguna** vacía el buscador y lo excluye de la impresión, para
+  imprimir solo la jornada actual.
 
 Combinando filtros se obtiene, por ejemplo, la jornada 1 de todas las
 categorías de una temporada. El estado se refleja en la URL
-(`#t=2025-26&c=alevin&j=3`) para poder enlazar una selección concreta. Cada
+(`#t=2025-26&c=alevin&j=3`, o `j=ninguna`) para poder enlazar una selección concreta. Cada
 categoría tiene como ancla su identificador (`#prebenjamin`, `#benjamin`,
 `#alevin`, `#infantil`) y cada jornada `#alevin-j3`.
 
@@ -120,7 +130,8 @@ Atributos opcionales del contenedor:
 | --- | --- |
 | `data-base="https://…/"` | Raíz donde está la carpeta `data/`. Por defecto, la carpeta del script. |
 | `data-temporada="2025-26"` | Temporada inicial. Por defecto, la actual o la última disponible. |
-| `data-nivel="2"` | Nivel del primer encabezado que genera (`h2` para la temporada, `h3` categorías, `h4` jornadas). |
+| `data-nivel="2"` | Nivel del primer encabezado que genera (`h2` «Jornada actual» y «Buscador de encuentros», `h3` temporada, `h4` categorías, `h5` jornadas). |
+| `data-hoy="2026-01-24"` | Fecha que se toma como «hoy» para calcular la jornada actual. Solo para pruebas. |
 
 Los equipos del club (`ESTORIL` en el nombre) se resaltan con la clase
 `f7-estoril`.
