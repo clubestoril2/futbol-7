@@ -39,7 +39,7 @@ Contiene únicamente lo que se publica en GitHub Pages:
 | Fichero | Contenido |
 | --- | --- |
 | `futbol7.js` | Aplicación: carga los JSON y pinta los calendarios con filtros. Sin dependencias. |
-| `futbol7.css` | Estilos. Usa los tokens de diseño del tema del club (`--ce-*`) si existen, con valores propios y modo oscuro automático en caso contrario. |
+| `futbol7.css` | Estilos mínimos (grupos de filtros y resaltados). Botones, tablas, avisos y textos secundarios usan las clases del tema del club (`ce-boton`, `ce-tabla`, `ce-aviso`, `ce-meta`, `ce-oculto`), así que fuera de la web del club hay que cargar también las hojas del tema, como hace `index.html`. |
 | `data/index.json` | Lista de temporadas disponibles. |
 | `data/<aaaa-aa>.json` | Calendarios de una temporada (por ejemplo `2025-26.json`). |
 | `index.html` | Página de ejemplo y comprobación en <https://futbol7-app.www.clubestoril2.es/>. |
