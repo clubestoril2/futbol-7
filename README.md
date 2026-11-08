@@ -85,11 +85,18 @@ Contiene únicamente lo que se publica en GitHub Pages:
 
 ## La aplicación en una página
 
+Es lo que lleva la página [Escuela de fútbol 7](https://www.clubestoril2.es/escuelas-y-actividades/escuela-de-futbol-7/)
+del club (contenido de la página, editor clásico):
+
 ```html
-<link rel="stylesheet" href="https://futbol7-app.www.clubestoril2.es/futbol7.css">
-<div id="futbol7-app"></div>
-<script src="https://futbol7-app.www.clubestoril2.es/futbol7.js" defer></script>
+<link rel="stylesheet" href="https://clubestoril2.github.io/futbol-7/futbol7.css">
+<div id="futbol7-app" data-nivel="2"></div>
+<script src="https://clubestoril2.github.io/futbol-7/futbol7.js" defer></script>
 ```
+
+Mientras no exista el DNS del dominio propio se usa la URL de `github.io`;
+cuando se configure `futbol7-app.www.clubestoril2.es` bastará con cambiar
+las dos URL (la antigua seguirá funcionando por redirección).
 
 Al cargar, la aplicación muestra **todos los calendarios de todas las
 categorías** de la temporada actual (o de la última publicada), de modo que
@@ -165,8 +172,13 @@ python3 -m http.server 8765 --directory app
 ## Publicación en GitHub Pages
 
 - Origen de Pages: *GitHub Actions* (flujo `desplegar.yml` de la rama `futbol7-app`).
-- Dominio personalizado: `futbol7-app.www.clubestoril2.es`, que necesita en el
-  DNS de `clubestoril2.es` un registro `CNAME futbol7-app.www → clubestoril2.github.io`.
+- URL actual: <https://clubestoril2.github.io/futbol-7/>.
+- Dominio personalizado previsto: `futbol7-app.www.clubestoril2.es`. Necesita en el
+  DNS de `clubestoril2.es` un registro `CNAME futbol7-app.www → clubestoril2.github.io`
+  y después fijarlo en Pages:
+  `gh api -X PUT repos/clubestoril2/futbol-7/pages -f cname=futbol7-app.www.clubestoril2.es`.
+- El entorno `github-pages` del repositorio debe permitir desplegar desde la
+  rama `futbol7-app` (ya añadido en la política de ramas del entorno).
 - GitHub Pages envía `Access-Control-Allow-Origin: *`, pero el subdominio
   propio evita además cualquier problema de CORS o de políticas de contenido
   en la web del club.
