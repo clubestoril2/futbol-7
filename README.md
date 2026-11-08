@@ -56,9 +56,13 @@ Contiene únicamente lo que se publica en GitHub Pages:
  "actualizado": "2026-11-08",
  "categorias": [
   {
-   "id": "alevin",
-   "nombre": "Alevín",
-   "competicion": "FÚTBOL 7/CAMPEONATO DE LIGA/ALEVÍN",
+   "id": "benjamin-f1-g2",
+   "nombre": "Benjamín · 1ª fase · grupo 2",
+   "categoria": "benjamin",
+   "categoria_nombre": "Benjamín",
+   "fase": "1ª fase",
+   "grupo": 2,
+   "competicion": "FÚTBOL 7/1ª FASE DE LIGA/BENJAMIN",
    "pdf": "https://www.mostoles.es/.../1402945-CALENDARIO ... ALEVÍN 25-26.pdf",
    "pdf_fecha": "2025-10-23",
    "jornadas": [
@@ -76,6 +80,11 @@ Contiene únicamente lo que se publica en GitHub Pages:
 }
 ```
 
+- Cada entrada de `categorias` es un calendario (un PDF): la categoría base
+  (`categoria`) más, si los hay, la fase o vuelta (`fase`) y el grupo
+  (`grupo`); `id` los combina (`benjamin-f1-g2`, `alevin-v2-g3`). Una
+  temporada sin fases ni grupos tiene una entrada por categoría con
+  `id` igual a `categoria`.
 - La temporada se deduce de la fecha del primer partido (de julio a junio).
 - `campo` se normaliza quitando el nombre del complejo deportivo (Iker Casillas)
   y las comillas: `IKER CASILLAS CAMPO 2 ZONA A` → `Campo 2 zona A`.
@@ -142,8 +151,13 @@ El flujo `Actualizar datos` se ejecuta cada día (y a mano desde la pestaña
 *Actions*):
 
 1. Descarga la rama `master` (scripts) y la rama `futbol7-app` (datos).
-2. Lee la [página de calendarios](https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica)
-   del Ayuntamiento, descarga los PDF cuyo nombre contiene `CALENDARIO` y los convierte.
+2. Lee las páginas [Calendario](https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario)
+   y [Calendario Serie Básica](https://www.mostoles.es/MostolesDeporte/es/campeonatos-municipales-deporte-infantil/futbol-7/calendario/calendario-serie-basica)
+   del Ayuntamiento (ha usado una u otra según la temporada), descarga los
+   PDF cuyo nombre contiene `CALENDARIO`, descarta los que no son de una
+   categoría de la serie básica (ligas de adultos) y convierte el resto.
+   Un PDF de una fase o grupo nuevos se añade a la temporada sin borrar
+   los anteriores.
 3. Si algún JSON cambia, hace commit en `futbol7-app` con el mensaje
    `AAAA-MM-DD actualizada temporada AAAA/AA` y lo sube.
 4. Lanza el flujo `Desplegar en GitHub Pages` de la rama `futbol7-app`
@@ -193,6 +207,19 @@ python3 -m http.server 8765 --directory app
 - GitHub Pages envía `Access-Control-Allow-Origin: *`, pero el subdominio
   propio evita además cualquier problema de CORS o de políticas de contenido
   en la web del club.
+
+## Temporadas disponibles
+
+| Temporada | Origen | Contenido |
+| --- | --- | --- |
+| 2019/20 | Archivo de Internet (capturas de 2020) | Prebenjamín e infantil completos; benjamín y alevín solo la 2ª vuelta (alevín en tres grupos). Competición interrumpida por la pandemia. |
+| 2024/25 | PDF guardados en el repositorio original | 1ª fase de las cuatro categorías. La 2ª fase (benjamín por grupos) no se pudo recuperar: la única captura archivada es un error 404. |
+| 2025/26 | Web municipal | Las cuatro categorías. |
+| 2026/27 | Web municipal (página «Calendario») | 1ª fase; benjamín en tres grupos. Se completará solo cuando se publiquen las siguientes fases. |
+
+No existen capturas de 2017/18 (solo de la página, no de los PDF), 2018/19
+ni de 2020/21 a 2023/24. Si aparecen PDF de esas temporadas se incorporan
+con el comando `pdf`.
 
 ## Historial
 

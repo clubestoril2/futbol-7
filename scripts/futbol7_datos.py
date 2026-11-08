@@ -28,11 +28,15 @@ import unicodedata
 from pathlib import Path
 from urllib.parse import unquote, urljoin
 
-URL_CALENDARIO = (
+# Páginas municipales con los PDF de calendarios de la serie básica (deporte
+# infantil). El Ayuntamiento los ha publicado unas temporadas en la página
+# «Calendario» y otras en la subpágina «Calendario Serie Básica».
+URL_BASE = (
     "https://www.mostoles.es/MostolesDeporte/es/"
-    "campeonatos-municipales-deporte-infantil/futbol-7/calendario/"
-    "calendario-serie-basica"
+    "campeonatos-municipales-deporte-infantil/futbol-7/calendario"
 )
+URLS_CALENDARIO = [URL_BASE, URL_BASE + "/calendario-serie-basica"]
+URL_CALENDARIO = URLS_CALENDARIO[-1]
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
@@ -52,8 +56,15 @@ RE_PARTIDO = re.compile(
     r"^\d+\s+(?P<local>.+?)\s+-\s+(?P<visitante>.+?)\s+"
     r"(?P<fecha>\d{2}/\d{2}/\d{4})\s+(?P<hora>\d{2}:\d{2})\s*(?P<campo>.*)$"
 )
-RE_DESCANSA = re.compile(r"^\d+\s+(?P<equipo>.+?)\s+-\s+\*\*\s*DESCANSA\s*\*\*")
+# Descansos: «EQUIPO - ** DESCANSA **», «EQUIPO - ** JORNADA DE DESCANSO **»,
+# «EQUIPO - DESCANSA 16/11/2019» o «DESCANSA - EQUIPO 16/11/2019» (formatos antiguos).
+RE_DESCANSA = re.compile(
+    r"^\d+\s+(?P<local>.+?)\s+-\s+(?P<visitante>.+?)(?:\s+(?P<fecha>\d{2}/\d{2}/\d{4}))?\s*$"
+)
+RE_ES_DESCANSO = re.compile(r"^(\*\*\s*)?(DESCANSA|JORNADA DE DESCANSO)(\s*\*\*)?$", re.I)
 RE_JORNADA = re.compile(r"^JORNADA\s+(?P<numero>\d+)")
+RE_FASE = re.compile(r"(?P<numero>\d)ª\s+(?P<tipo>FASE|VUELTA)", re.I)
+RE_GRUPO = re.compile(r"GRUPO\s+(?P<numero>\d+)", re.I)
 
 
 def sin_acentos(texto: str) -> str:
@@ -115,8 +126,44 @@ def fecha_metadato(valor: str | None) -> str | None:
     return f"{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else None
 
 
-def analizar_pdf(ruta: Path, url: str | None = None) -> dict:
-    """Devuelve la categoría con sus jornadas y la temporada deducida."""
+def detectar_categoria(cabecera: dict[str, str]) -> str | None:
+    """Id de la categoría a partir de «Categoría:» o, en PDF antiguos, de «Competición:»/«Grupo:»."""
+    explicita = cabecera.get("Categoría") or cabecera.get("Categoria")
+    if explicita:
+        cid = id_categoria(explicita)
+        if cid in NOMBRES_CATEGORIA:
+            return cid
+    for clave in ("Competición", "Competicion", "Grupo", "Fase"):
+        texto = sin_acentos(cabecera.get(clave, "")).upper()
+        for cid in ORDEN_CATEGORIA:
+            if re.search(r"\b" + cid.upper() + r"\b", texto):
+                return cid
+    return None
+
+
+def detectar_fase(cabecera: dict[str, str]) -> dict | None:
+    """{'numero': 2, 'tipo': 'vuelta', 'nombre': '2ª vuelta'} o None."""
+    for clave in ("Competición", "Competicion", "Grupo", "Fase"):
+        m = RE_FASE.search(cabecera.get(clave, ""))
+        if m:
+            tipo = m.group("tipo").lower()
+            return {"numero": int(m.group("numero")), "tipo": tipo, "nombre": f"{m.group('numero')}ª {tipo}"}
+    return None
+
+
+def detectar_grupo(cabecera: dict[str, str]) -> int | None:
+    for clave in ("Grupo", "Competición", "Competicion"):
+        m = RE_GRUPO.search(cabecera.get(clave, ""))
+        if m:
+            return int(m.group("numero"))
+    return None
+
+
+def analizar_pdf(ruta: Path, url: str | None = None) -> dict | None:
+    """Devuelve el calendario (categoría, fase, grupo y jornadas) y la temporada deducida.
+
+    Devuelve None si el PDF no es de una categoría de la serie básica.
+    """
     texto, meta = texto_pdf(ruta)
     lineas = [linea.strip() for linea in texto.splitlines()]
 
@@ -127,9 +174,21 @@ def analizar_pdf(ruta: Path, url: str | None = None) -> dict:
         if linea.endswith(":") and i + 1 < len(lineas):
             cabecera.setdefault(linea[:-1], lineas[i + 1])
 
-    nombre_cat = cabecera.get("Categoría") or cabecera.get("Categoria") or ruta.stem
-    cid = id_categoria(nombre_cat)
-    nombre = NOMBRES_CATEGORIA.get(cid, nombre_cat.capitalize())
+    categoria = detectar_categoria(cabecera)
+    if categoria is None:
+        print(f"Se omite {ruta.name}: no es de una categoría de la serie básica", file=sys.stderr)
+        return None
+    fase = detectar_fase(cabecera)
+    grupo = detectar_grupo(cabecera)
+
+    cid = categoria
+    nombre = NOMBRES_CATEGORIA[categoria]
+    if fase:
+        cid += f"-{fase['tipo'][0]}{fase['numero']}"
+        nombre += f" · {fase['nombre']}"
+    if grupo:
+        cid += f"-g{grupo}"
+        nombre += f" · grupo {grupo}"
 
     jornadas: dict[int, list[dict]] = {}
     actual: int | None = None
@@ -155,13 +214,25 @@ def analizar_pdf(ruta: Path, url: str | None = None) -> dict:
             continue
         m = RE_DESCANSA.match(linea)
         if m:
-            jornadas[actual].append({"local": m.group("equipo").strip(), "descansa": True})
+            local, visitante = m.group("local").strip(), m.group("visitante").strip()
+            equipo = None
+            if RE_ES_DESCANSO.match(visitante):
+                equipo = local
+            elif RE_ES_DESCANSO.match(local):
+                equipo = visitante
+            if equipo:
+                descanso = {"local": equipo, "descansa": True}
+                if m.group("fecha"):
+                    descanso["fecha"] = fecha_iso(m.group("fecha"))
+                jornadas[actual].append(descanso)
 
     lista_jornadas = []
     fechas_todas: list[str] = []
     for numero in sorted(jornadas):
         partidos = jornadas[numero]
-        fechas = sorted(p["fecha"] for p in partidos if "fecha" in p)
+        fechas = sorted(p["fecha"] for p in partidos if p.get("fecha") and not p.get("descansa"))
+        if not fechas:
+            fechas = sorted(p["fecha"] for p in partidos if p.get("fecha"))
         fechas_todas += fechas
         lista_jornadas.append(
             {
@@ -177,6 +248,10 @@ def analizar_pdf(ruta: Path, url: str | None = None) -> dict:
     categoria = {
         "id": cid,
         "nombre": nombre,
+        "categoria": categoria,
+        "categoria_nombre": NOMBRES_CATEGORIA[categoria],
+        "fase": fase["nombre"] if fase else None,
+        "grupo": grupo,
         "competicion": cabecera.get("Competición") or cabecera.get("Competicion"),
         "pdf": url,
         "pdf_fecha": fecha_metadato(meta.get("creationDate")),
@@ -185,30 +260,34 @@ def analizar_pdf(ruta: Path, url: str | None = None) -> dict:
     return {"temporada_id": tid, "temporada": tnombre, "categoria": categoria}
 
 
-def descargar_pdfs(url: str, carpeta: Path) -> list[tuple[Path, str]]:
+def descargar_pdfs(urls: list[str], carpeta: Path) -> list[tuple[Path, str]]:
+    """Descarga los PDF de calendario enlazados desde las páginas indicadas."""
     import requests
     from bs4 import BeautifulSoup
 
     sesion = requests.Session()
     sesion.headers["User-Agent"] = USER_AGENT
-    respuesta = sesion.get(url, timeout=60)
-    respuesta.raise_for_status()
-    sopa = BeautifulSoup(respuesta.content, "html.parser")
     resultado = []
-    for enlace in sopa.find_all("a", class_="cmResourceLink"):
-        href = enlace.get("href") or ""
-        if not href.lower().endswith(".pdf"):
-            continue
-        pdf_url = urljoin(url, href)
-        nombre = unquote(os.path.basename(pdf_url))
-        if "CALENDARIO" not in sin_acentos(nombre).upper():
-            continue
-        destino = carpeta / nombre
-        datos = sesion.get(pdf_url, timeout=120)
-        datos.raise_for_status()
-        destino.write_bytes(datos.content)
-        print(f"Descargado {nombre}", file=sys.stderr)
-        resultado.append((destino, pdf_url))
+    vistos: set[str] = set()
+    for url in urls:
+        respuesta = sesion.get(url, timeout=60)
+        respuesta.raise_for_status()
+        sopa = BeautifulSoup(respuesta.content, "html.parser")
+        for enlace in sopa.find_all("a", class_="cmResourceLink"):
+            href = enlace.get("href") or ""
+            if not href.lower().endswith(".pdf"):
+                continue
+            pdf_url = urljoin(url, href)
+            nombre = unquote(os.path.basename(pdf_url))
+            if "CALENDARIO" not in sin_acentos(nombre).upper() or pdf_url in vistos:
+                continue
+            vistos.add(pdf_url)
+            destino = carpeta / nombre
+            datos = sesion.get(pdf_url, timeout=120)
+            datos.raise_for_status()
+            destino.write_bytes(datos.content)
+            print(f"Descargado {nombre}", file=sys.stderr)
+            resultado.append((destino, pdf_url))
     return resultado
 
 
@@ -258,7 +337,9 @@ def integrar(resultados: list[dict], destino: Path, fuente: str | None) -> list[
         nuevo["categorias"] = sorted(
             existentes.values(),
             key=lambda c: (
-                ORDEN_CATEGORIA.index(c["id"]) if c["id"] in ORDEN_CATEGORIA else 99,
+                ORDEN_CATEGORIA.index(c.get("categoria", c["id"])) if c.get("categoria", c["id"]) in ORDEN_CATEGORIA else 99,
+                c.get("fase") or "",
+                c.get("grupo") or 0,
                 c["id"],
             ),
         )
@@ -314,26 +395,27 @@ def main(argv: list[str] | None = None) -> int:
 
     p_act = sub.add_parser("actualizar", help="descargar de la web municipal y actualizar los JSON")
     p_act.add_argument("--destino", type=Path, required=True, help="carpeta con los JSON de temporada")
-    p_act.add_argument("--url", default=URL_CALENDARIO, help="página con los PDF de calendarios")
+    p_act.add_argument("--url", action="append", help="página con los PDF de calendarios (repetible); por defecto las dos municipales")
 
     p_pdf = sub.add_parser("pdf", help="convertir PDF locales")
     p_pdf.add_argument("--destino", type=Path, required=True)
-    p_pdf.add_argument("--fuente", default=URL_CALENDARIO, help="URL que se anota como origen de los datos")
+    p_pdf.add_argument("--fuente", default=URL_BASE, help="URL que se anota como origen de los datos")
     p_pdf.add_argument("ficheros", nargs="+", type=Path)
 
     args = parser.parse_args(argv)
 
     if args.orden == "actualizar":
+        urls = args.url or URLS_CALENDARIO
         with tempfile.TemporaryDirectory() as tmp:
-            pdfs = descargar_pdfs(args.url, Path(tmp))
+            pdfs = descargar_pdfs(urls, Path(tmp))
             if not pdfs:
                 print("No se ha encontrado ningún PDF de calendario", file=sys.stderr)
                 return 1
             resultados = [analizar_pdf(ruta, url) for ruta, url in pdfs]
-        cambiadas = integrar(resultados, args.destino, args.url)
+        cambiadas = integrar([r for r in resultados if r], args.destino, URL_BASE)
     else:
         resultados = [analizar_pdf(ruta) for ruta in args.ficheros]
-        cambiadas = integrar(resultados, args.destino, args.fuente)
+        cambiadas = integrar([r for r in resultados if r], args.destino, args.fuente)
 
     escribir_salida_actions(cambiadas)
     if cambiadas:
