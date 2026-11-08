@@ -92,7 +92,12 @@
         return estado;
     }
 
-    function escribirHash(estado) {
+    function hashPropio() { return /^#(t|c|j)=/.test(location.hash); }
+
+    function escribirHash(estado, porDefecto) {
+        /* Sin filtros y con la temporada por defecto no se toca la URL, para
+           respetar las anclas de la página (#alevin) y no ensuciar el enlace. */
+        if (!estado.categoria && !estado.jornada && estado.temporada === porDefecto && !hashPropio()) { return; }
         var partes = ['t=' + encodeURIComponent(estado.temporada)];
         if (estado.categoria) { partes.push('c=' + encodeURIComponent(estado.categoria)); }
         if (estado.jornada) { partes.push('j=' + estado.jornada); }
@@ -160,6 +165,7 @@
             var pedida = inicial.temporada || yo.root.getAttribute('data-temporada') || temporadaActual();
             var existe = yo.temporadas.some(function (t) { return t.id === pedida; });
             inicial.temporada = existe ? pedida : yo.temporadas[yo.temporadas.length - 1].id;
+            yo.temporadaPorDefecto = inicial.temporada;
             yo.aplicarEstado(inicial);
         }).catch(function (e) { yo.error(e); });
     };
@@ -225,7 +231,17 @@
     Futbol7.prototype.pintar = function () {
         this.pintarFiltros();
         this.pintarContenido();
-        escribirHash(this.estado);
+        escribirHash(this.estado, this.temporadaPorDefecto);
+        this.irAlAncla();
+    };
+
+    /* Si se llegó con un ancla de la página (#alevin, #alevin-j3) se desplaza a ella una vez pintada. */
+    Futbol7.prototype.irAlAncla = function () {
+        if (this.anclaAtendida || hashPropio() || !location.hash) { return; }
+        var id = decodeURIComponent(location.hash.slice(1));
+        var destino = this.nodoContenido.querySelector('[id="' + id.replace(/"/g, '') + '"]');
+        this.anclaAtendida = true;
+        if (destino && destino.scrollIntoView) { destino.scrollIntoView(); }
     };
 
     Futbol7.prototype.boton = function (texto, activo, alPulsar, extra) {
