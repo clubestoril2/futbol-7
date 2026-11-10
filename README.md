@@ -139,7 +139,7 @@ Atributos opcionales del contenedor:
 | --- | --- |
 | `data-base="https://…/"` | Raíz donde está la carpeta `data/`. Por defecto, la carpeta del script. |
 | `data-temporada="2025-26"` | Temporada inicial. Por defecto, la actual o la última disponible. |
-| `data-nivel="2"` | Nivel del primer encabezado que genera (`h2` «Jornada actual» y «Buscador de encuentros», `h3` temporada, `h4` categorías, `h5` jornadas). |
+| `data-nivel="2"` | Nivel del primer encabezado que genera (`h2` «Jornada actual» y «Buscador de encuentros», `h3` cada jornada, con el formato «Categoría · fase · grupo · jornada N · fecha», igual en ambos bloques). |
 | `data-hoy="2026-01-24"` | Fecha que se toma como «hoy» para calcular la jornada actual. Solo para pruebas. |
 
 Los equipos del club (`ESTORIL` en el nombre) se resaltan con la clase
