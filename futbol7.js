@@ -377,14 +377,25 @@
         nodo.appendChild(this.encabezado(0, { 'class': 'f7-actual__titulo' }, ['Jornada actual']));
         nodo.appendChild(el('p', { 'class': 'ce-meta', text: 'Próximos encuentros de la temporada ' + datos.temporada + '.' }));
         pendientes.forEach(function (x) {
-            nodo.appendChild(yo.pintarJornada(x.categoria, x.jornada, {
-                nivel: 1,
-                titulo: x.categoria.nombre + ' · jornada ' + x.jornada.numero +
-                    (x.jornada.fecha ? ' · ' + fechaLarga(x.jornada.fecha) : ''),
-                id: null
-            }));
+            nodo.appendChild(yo.pintarJornada(x.categoria, x.jornada, { id: null }));
         });
         nodo.removeAttribute('hidden');
+    };
+
+    /* Enlaces a los PDF oficiales de los calendarios indicados, en una línea. */
+    Futbol7.prototype.enlacesPdf = function (calendarios) {
+        var enlaces = [];
+        calendarios.forEach(function (c) {
+            if (!c.pdf) { return; }
+            enlaces.push(enlaces.length ? ', ' : 'Calendarios oficiales (PDF): ');
+            enlaces.push(el('a', {
+                href: c.pdf, target: '_blank', rel: 'noopener noreferrer', text: c.nombre,
+                title: c.pdf_fecha ? 'Publicado el ' + fechaNumerica(c.pdf_fecha) : null
+            }));
+        });
+        if (!enlaces.length) { return null; }
+        enlaces.push('.');
+        return el('p', { 'class': 'ce-meta f7-pdfs' }, enlaces);
     };
 
     Futbol7.prototype.encabezado = function (nivelRelativo, atributos, hijos) {
@@ -404,44 +415,30 @@
             return;
         }
 
-        nodo.appendChild(this.encabezado(1, { 'class': 'f7-temporada' },
-            ['Calendario de la temporada ' + datos.temporada]));
+        nodo.appendChild(el('p', { 'class': 'ce-meta', text: 'Encuentros de la temporada ' + datos.temporada + '.' }));
 
-        var hayAlgo = false;
-
-        /* Una sección por categoría; dentro, cada fase o grupo con sus jornadas. */
+        /*
+         * Mismo formato que «Jornada actual»: cada jornada lleva un encabezado
+         * del mismo nivel con la categoría, la fase, el grupo y la fecha.
+         * Las secciones por categoría y por calendario solo sirven de ancla.
+         */
+        var secciones = [], visibles = [];
         this.categoriasBase().forEach(function (base) {
-            var calendarios = yo.categoriasVisibles().filter(function (c) { return categoriaDe(c) === base.id; });
-            var bloques = [];
-            calendarios.forEach(function (c) {
-                var jornadas = (c.jornadas || []).filter(function (j) { return !est.jornada || j.numero === est.jornada; });
-                if (jornadas.length) { bloques.push({ calendario: c, jornadas: jornadas }); }
-            });
-            if (!bloques.length) { return; }
-            hayAlgo = true;
             var seccion = el('section', { 'class': 'f7-categoria', id: base.id });
-            seccion.appendChild(yo.encabezado(2, { 'class': 'f7-categoria__titulo' }, [base.nombre]));
-
-            bloques.forEach(function (b) {
-                var c = b.calendario;
-                var conSubtitulo = !!(c.fase || c.grupo);
-                var subtitulo = [c.fase, c.grupo ? 'grupo ' + c.grupo : null].filter(Boolean).join(' · ');
-                if (conSubtitulo) {
-                    seccion.appendChild(yo.encabezado(3, { 'class': 'f7-fase__titulo', id: c.id }, [subtitulo]));
-                }
-                var meta = [];
-                if (c.pdf) {
-                    meta.push(el('a', { href: c.pdf, target: '_blank', rel: 'noopener noreferrer', text: 'Calendario oficial (PDF)' }));
-                }
-                if (c.pdf_fecha) { meta.push((meta.length ? ' · ' : '') + 'publicado el ' + fechaNumerica(c.pdf_fecha)); }
-                if (meta.length) { seccion.appendChild(el('p', { 'class': 'ce-meta' }, meta)); }
-
-                b.jornadas.forEach(function (j) {
-                    seccion.appendChild(yo.pintarJornada(c, j, { nivel: conSubtitulo ? 4 : 3 }));
-                });
+            yo.categoriasVisibles().filter(function (c) { return categoriaDe(c) === base.id; }).forEach(function (c) {
+                var jornadas = (c.jornadas || []).filter(function (j) { return !est.jornada || j.numero === est.jornada; });
+                if (!jornadas.length) { return; }
+                visibles.push(c);
+                var bloque = el('div', { 'class': 'f7-calendario', id: c.id });
+                jornadas.forEach(function (j) { bloque.appendChild(yo.pintarJornada(c, j)); });
+                seccion.appendChild(bloque);
             });
-            nodo.appendChild(seccion);
+            if (seccion.childNodes.length) { secciones.push(seccion); }
         });
+        var hayAlgo = secciones.length > 0;
+        var pdfs = this.enlacesPdf(visibles);
+        if (pdfs) { nodo.appendChild(pdfs); }
+        secciones.forEach(function (s) { nodo.appendChild(s); });
 
         if (!hayAlgo) {
             nodo.appendChild(el('p', { 'class': 'ce-meta', text: 'No hay partidos que coincidan con el filtro elegido.' }));
@@ -461,10 +458,10 @@
 
     Futbol7.prototype.pintarJornada = function (categoria, jornada, opciones) {
         opciones = opciones || {};
-        var titulo = opciones.titulo || ('Jornada ' + jornada.numero + (jornada.fecha ? ' · ' + fechaLarga(jornada.fecha) : ''));
+        var titulo = categoria.nombre + ' · jornada ' + jornada.numero + (jornada.fecha ? ' · ' + fechaLarga(jornada.fecha) : '');
         var id = opciones.id === undefined ? categoria.id + '-j' + jornada.numero : opciones.id;
         var bloque = el('div', { 'class': 'f7-jornada', id: id });
-        bloque.appendChild(this.encabezado(opciones.nivel === undefined ? 3 : opciones.nivel, { 'class': 'f7-jornada__titulo' }, [titulo]));
+        bloque.appendChild(this.encabezado(1, { 'class': 'f7-jornada__titulo' }, [titulo]));
 
         var cuerpo = el('tbody');
         (jornada.partidos || []).forEach(function (p) {
@@ -487,7 +484,7 @@
 
         /* Misma estructura que las tablas del resto de la web (div.ce-tabla > table.tabla). */
         var tabla = el('table', { 'class': 'tabla f7-tabla' }, [
-            el('caption', { 'class': 'ce-oculto', text: categoria.nombre + ', ' + titulo }),
+            el('caption', { 'class': 'ce-oculto', text: titulo }),
             el('thead', null, [el('tr', null, [
                 el('th', { scope: 'col', 'class': 'f7-equipo', text: 'Local' }),
                 el('th', { scope: 'col', 'class': 'f7-equipo', text: 'Visitante' }),
